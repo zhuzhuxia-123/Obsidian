@@ -1,0 +1,7 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./附件",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true
+}
