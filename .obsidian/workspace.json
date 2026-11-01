@@ -176,12 +176,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 920.5,
-    "collapsed": true
+    "width": 920.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34bf44758cacd8c6",
+  "active": "fe38b8269082a6c2",
   "lastOpenFiles": [
     "系统架构师/软考系统架构设计师学习大纲与三科考点复习.md",
     "多模态/多模态零基础完整学习路线.md",
