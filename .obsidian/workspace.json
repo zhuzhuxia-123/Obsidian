@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "26193c5a43108542",
+        "id": "5c4a5ba0b3f27c18",
         "type": "tabs",
         "children": [
           {
-            "id": "a92551f282da5393",
+            "id": "353b9769f6fbbbc3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "多模态/Python编程：从入门到实践（第3版）+([美]+埃里克+•+马瑟斯（Eric+Matthes）)+(Z-Library).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Python编程：从入门到实践（第3版）+([美]+埃里克+•+马瑟斯（Eric+Matthes）)+(Z-Library)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -193,12 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a92551f282da5393",
+  "active": "353b9769f6fbbbc3",
   "lastOpenFiles": [
+    "多模态/Python编程：从入门到实践（第3版）+([美]+埃里克+•+马瑟斯（Eric+Matthes）)+(Z-Library).pdf",
     "redis/Redis高级篇-分布式缓存/Redis高级-分布式缓存.md",
     "多模态/多模态零基础完整学习路线.md",
     "系统架构师/软考系统架构设计师学习大纲与三科考点复习.md",
-    "多模态/Python编程：从入门到实践（第3版）+([美]+埃里克+•+马瑟斯（Eric+Matthes）)+(Z-Library).pdf",
     "redis/Redis实战篇.md",
     "未命名.base",
     "未命名 1.canvas",
