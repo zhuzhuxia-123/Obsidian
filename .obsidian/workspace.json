@@ -11,10 +11,12 @@
             "id": "3de7bfa4c2eba698",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "agent/langchain/尚硅谷-02-模型的创建与调用.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "尚硅谷-02-模型的创建与调用"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 200
   },
   "right": {
     "id": "15629e82df84e8f5",
@@ -176,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 547.5
+    "width": 547.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe38b8269082a6c2",
+  "active": "3de7bfa4c2eba698",
   "lastOpenFiles": [
+    "agent/langchain/尚硅谷-01-LangChain概述.pdf",
     "agent/企业级agent应用与skill实战/实战篇/项目实战篇大纲.md",
     "agent/企业级agent应用与skill实战/实战篇/1.笔记/13-DeepSeek-Harness介绍与上手.md",
     "agent/企业级agent应用与skill实战/实战篇/1.笔记/12-制作带资料、模板与脚本的Skills.md",
@@ -219,7 +223,6 @@
     "agent/企业级agent应用与skill实战/技术篇/1.笔记/13-DeepSeek-Harness介绍与上手.md",
     "agent/企业级agent应用与skill实战/技术篇/1.笔记/12-制作带资料、模板与脚本的Skills.md",
     "agent/企业级agent应用与skill实战/技术篇/1.笔记/11-用Agent辅助制作与改进Skills.md",
-    "agent/企业级agent应用与skill实战/技术篇/1.笔记/10-手工制作第一个Skill.md",
     "agent/企业级agent应用与skill实战/技术篇/1.笔记",
     "agent/企业级agent应用与skill实战/技术篇",
     "agent/企业级agent应用与skill实战/实战篇",
