@@ -1,0 +1,16 @@
+{
+  "output_language": "zh-CN",
+  "stage": "final_quality_review",
+  "note_sha256": "80f2e011e520392ddad14767100d9505d7ff4744eaa0633d14fa6ebc041709c5",
+  "passed": true,
+  "checks": {
+    "central_evidence_chain": "任务定义、三处融合、公式和表7移除实验构成完整证据链。",
+    "settings_and_numbers": "包含查询数、特征维数、层数、硬件、批大小、优化器、学习率和匹配/损失权重；记录正文与附录系数冲突。",
+    "mechanism_result_mapping": "将编码器融合、查询和文本注意力对应LVIS差值，保留查询差值与正文不符的问题。",
+    "strong_baselines": "同数据比较DINO和GLIP，并保留DetCLIPv2零样本明显领先的结果。",
+    "limitations_explained": "从区域语义覆盖、唯一实体选择和监督配方解释长尾、REC及数据迁移边界。",
+    "proven_vs_unproven": "明确区分数据集零样本和类别未见、实测和复杂度/关系推理推断；不将中位数当方差证据。",
+    "reusable_takeaways": "给出固定数据配方、分词、阈值、初始化和提示扰动的复现清单与后续实验。"
+  },
+  "warnings": []
+}

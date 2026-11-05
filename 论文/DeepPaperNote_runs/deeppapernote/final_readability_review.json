@@ -1,0 +1,17 @@
+{
+  "output_language": "zh-CN",
+  "stage": "final_readability_review",
+  "note_sha256": "80f2e011e520392ddad14767100d9505d7ff4744eaa0633d14fa6ebc041709c5",
+  "passed": true,
+  "checks": {
+    "full_note_reread": true,
+    "natural_chinese": true,
+    "stable_proper_names": true,
+    "formula_and_table_context": true
+  },
+  "notes": [
+    "已通读全文；摘要忠实于原文，结论判断放在后续分析。",
+    "修改了独立页码段、摘要结果单位和冗余过渡，保留关键设置与失败证据。"
+  ],
+  "warnings": []
+}

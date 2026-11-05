@@ -1,0 +1,118 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "output_language": "zh-CN",
+  "paper_id": "arxiv:2303.05499",
+  "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+  "note_path": "E:\\个人知识库\\知识库\\论文\\论文2\\论文2.zh-CN.md",
+  "subdir": "",
+  "images_dir": "E:\\个人知识库\\知识库\\论文\\论文2\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Fig 3",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_005_fig_fig_3_review.png",
+      "relative_markdown_path": "images/page_005_fig_fig_3_review.png",
+      "reviewed_asset_sha256": "31cd00605ea8fc7a3ea885356725f1b5314edda9c3be531513615d607e8d7a71"
+    },
+    {
+      "source_id": "Fig 4",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_006_fig_fig_4_review.png",
+      "relative_markdown_path": "images/page_006_fig_fig_4_review.png",
+      "reviewed_asset_sha256": "ab21089ab626131fdb36c2d75d9fca890271966b602a1e9755702b5fc5ee8eb2"
+    },
+    {
+      "source_id": "Fig 5",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_fig_fig_5_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_023_fig_fig_5_review.png",
+      "relative_markdown_path": "images/page_023_fig_fig_5_review.png",
+      "reviewed_asset_sha256": "f5c5f9735c6ec926f76cd9e7e3e3e9f302c9f929d542f716594aea35a91b34b1"
+    },
+    {
+      "source_id": "Table 1",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_004_fig_table_1_review.png",
+      "relative_markdown_path": "images/page_004_fig_table_1_review.png",
+      "reviewed_asset_sha256": "05dcc9fc5048176af96792f13c72b98575866aee7d224e90773ade7c8c45e4a5"
+    },
+    {
+      "source_id": "Table 2",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_008_fig_table_2_review.png",
+      "relative_markdown_path": "images/page_008_fig_table_2_review.png",
+      "reviewed_asset_sha256": "0ab803df926b7f9184d6948bbe4e0fb05a42a2f2e00c3777474fd7e592f441ef"
+    },
+    {
+      "source_id": "Table 3",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_010_fig_table_3_review.png",
+      "relative_markdown_path": "images/page_010_fig_table_3_review.png",
+      "reviewed_asset_sha256": "78926d1da8540d2821ff841ca748815ee5cf7b215c5cb5e5fe297f9ad6e5c593"
+    },
+    {
+      "source_id": "Table 4",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_011_fig_table_4_review.png",
+      "relative_markdown_path": "images/page_011_fig_table_4_review.png",
+      "reviewed_asset_sha256": "9ad3e176fbfdc97186c451962a971d7c832333d85066f1867a2e21e8b65915b4"
+    },
+    {
+      "source_id": "Table 5",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_012_fig_table_5_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_012_fig_table_5_review.png",
+      "relative_markdown_path": "images/page_012_fig_table_5_review.png",
+      "reviewed_asset_sha256": "e1dbe515f626de968cba3722a7bc342654baacd4dedba7cba6fb6d277f4ea787"
+    },
+    {
+      "source_id": "Table 7",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_014_fig_table_7_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_014_fig_table_7_review.png",
+      "relative_markdown_path": "images/page_014_fig_table_7_review.png",
+      "reviewed_asset_sha256": "2091786c9fc6e966fd3f3d64c738531023bac811c70a45b1e5144f2632ddeabe"
+    },
+    {
+      "source_id": "Table 11",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_022_fig_table_11_review.png",
+      "relative_markdown_path": "images/page_022_fig_table_11_review.png",
+      "reviewed_asset_sha256": "070920f024a5c02397d4a29651c8c46ece5722a929c523a38e1a6e6f1fe7d3d6"
+    },
+    {
+      "source_id": "Table 12",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_029_fig_table_12_review.png",
+      "relative_markdown_path": "images/page_029_fig_table_12_review.png",
+      "reviewed_asset_sha256": "074c80f64e87e656f6400f27600921946cb49795b402c7d2453823860736b078"
+    },
+    {
+      "source_id": "Table 14",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_031_fig_table_14_review.png",
+      "relative_markdown_path": "images/page_031_fig_table_14_review.png",
+      "reviewed_asset_sha256": "e94376fb046670691cf6de1fde0bed28705ca019d6e9ad340f7ff41f0fda1678"
+    },
+    {
+      "source_id": "Table 15",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_031_fig_table_15_review.png",
+      "relative_markdown_path": "images/page_031_fig_table_15_review.png",
+      "reviewed_asset_sha256": "7f951defd14037d30bac64e814590c936710ea4b693c0eb1d5a8659b558d39d6"
+    },
+    {
+      "source_id": "Table 18",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文2\\images\\page_033_fig_table_18_review.png",
+      "relative_markdown_path": "images/page_033_fig_table_18_review.png",
+      "reviewed_asset_sha256": "d832f1a4d37d78f845a71ac251b29efe638aa05f90db716857cd744fd598d320"
+    }
+  ],
+  "overwrote_existing_note": false,
+  "admission": "reuse_pdf_directory",
+  "domain_routing_skipped": true,
+  "sidecar_path": "E:\\个人知识库\\知识库\\论文\\论文2\\.deeppapernote.json",
+  "source_sha256": "ba1c64ec2ac4fedeb50b269eadc994456a8428dbe64a8dba2673f22df0fa20b3",
+  "output_mode": "obsidian",
+  "base_output_root": "E:\\个人知识库\\知识库",
+  "vault": "E:\\个人知识库\\知识库"
+}

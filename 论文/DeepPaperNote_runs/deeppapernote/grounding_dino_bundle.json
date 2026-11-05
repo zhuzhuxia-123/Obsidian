@@ -5228,7 +5228,7 @@
           5
         ],
         "section_id": "sec:related-work",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5239,7 +5239,7 @@
         "relative_markdown_embed": "![Fig 3](images/page_005_fig_fig_3_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "2b8e4ccf06b7ea9bfaf16bb2eebf0edeb6358aaf44f4b1ae67759cac6a6a4c76",
+        "source_image_sha256": "31cd00605ea8fc7a3ea885356725f1b5314edda9c3be531513615d607e8d7a71",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_005.png",
@@ -5248,27 +5248,34 @@
           "caption": "The framework of Grounding DINO. We present the overall framework, a feature",
           "bbox_pt": [
             126.02104187011719,
-            88.7219009399414,
+            107.94615028381348,
             492.5831298828125,
             363.3540344238281
           ],
           "normalized_bbox": [
-            0.205917,
-            0.112023,
-            0.804874,
-            0.45878
+            0.20591673508189082,
+            0.1362956442977443,
+            0.8048743952333538,
+            0.4587803464947325
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "31cd00605ea8fc7a3ea885356725f1b5314edda9c3be531513615d607e8d7a71",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.20591673508189082,
+            0.1362956442977443,
+            0.8048743952333538,
+            0.4587803464947325
+          ]
         }
       },
       {
@@ -5281,18 +5288,18 @@
           6
         ],
         "section_id": "sec:related-work",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
         "priority": 2,
-        "target_section": "关键结果",
+        "target_section": "方法主线",
         "plan_kind": "main_result",
         "source_image_filename": "page_006_fig_fig_4_review.png",
         "relative_markdown_embed": "![Fig 4](images/page_006_fig_fig_4_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "d477299149b566c13f05375fbcaa3f98073002d1614daccee2f8ee7cbef93972",
+        "source_image_sha256": "ab21089ab626131fdb36c2d75d9fca890271966b602a1e9755702b5fc5ee8eb2",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_006.png",
@@ -5301,27 +5308,34 @@
           "caption": "Comparisons of text representations.",
           "bbox_pt": [
             126.03753662109375,
-            281.3816833496094,
+            322.8316638183594,
             484.5497131347656,
             410.9128723144531
           ],
           "normalized_bbox": [
-            0.205944,
-            0.35528,
-            0.791748,
-            0.518829
+            0.20594368728936888,
+            0.4076157371443932,
+            0.7917478972790288,
+            0.5188293842354206
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "ab21089ab626131fdb36c2d75d9fca890271966b602a1e9755702b5fc5ee8eb2",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.20594368728936888,
+            0.4076157371443932,
+            0.7917478972790288,
+            0.5188293842354206
+          ]
         }
       },
       {
@@ -5355,7 +5369,7 @@
           23
         ],
         "section_id": "sec:model-8",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5388,11 +5402,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "f5c5f9735c6ec926f76cd9e7e3e3e9f302c9f929d542f716594aea35a91b34b1",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5493,7 +5509,7 @@
           4
         ],
         "section_id": "sec:introduction",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5526,11 +5542,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "05dcc9fc5048176af96792f13c72b98575866aee7d224e90773ade7c8c45e4a5",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5546,7 +5564,7 @@
           8
         ],
         "section_id": "sec:related-work",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5579,11 +5597,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "0ab803df926b7f9184d6948bbe4e0fb05a42a2f2e00c3777474fd7e592f441ef",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5599,7 +5619,7 @@
           10
         ],
         "section_id": "sec:experiments",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5632,11 +5652,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "78926d1da8540d2821ff841ca748815ee5cf7b215c5cb5e5fe297f9ad6e5c593",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5652,7 +5674,7 @@
           11
         ],
         "section_id": "sec:model-3",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5685,11 +5707,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "9ad3e176fbfdc97186c451962a971d7c832333d85066f1867a2e21e8b65915b4",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5705,7 +5729,7 @@
           12
         ],
         "section_id": "sec:model-4",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5738,11 +5762,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "e1dbe515f626de968cba3722a7bc342654baacd4dedba7cba6fb6d277f4ea787",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5775,7 +5801,7 @@
           14
         ],
         "section_id": "sec:conclusion",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5808,11 +5834,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "2091786c9fc6e966fd3f3d64c738531023bac811c70a45b1e5144f2632ddeabe",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -5828,9 +5856,9 @@
           19
         ],
         "section_id": "sec:references",
-        "decision": "review_pending",
+        "decision": "visual_defect",
         "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
-        "skip_reason": "",
+        "skip_reason": "scientific_content_missing",
         "visual_quality_status": "usable_candidate",
         "priority": 2,
         "target_section": "关键结果",
@@ -5861,12 +5889,14 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
+          "status": "fail",
+          "reviewed_asset_sha256": "41a9bb068a8ff01027615133901478e40aadf788e25d5c5ceedb6fac90fe2e4e",
           "preserved_scientific_elements": [],
-          "omitted_scientific_elements": [],
-          "notes": "",
-          "failure_reason": "",
+          "omitted_scientific_elements": [
+            "完整表体"
+          ],
+          "notes": "表8只剩参数表底部；表13候选实际是正文，没有该表。",
+          "failure_reason": "scientific_content_missing",
           "repair_attempts": 0,
           "revised_bbox": []
         }
@@ -5923,7 +5953,7 @@
           22
         ],
         "section_id": "sec:model-7",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -5934,7 +5964,7 @@
         "relative_markdown_embed": "![Table 11](images/page_022_fig_table_11_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "4f5f33ee2a3d1ca9e3051f95e31e230755f6dcfcca2add6d1be6642deb655c4d",
+        "source_image_sha256": "070920f024a5c02397d4a29651c8c46ece5722a929c523a38e1a6e6f1fe7d3d6",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_022.png",
@@ -5943,27 +5973,34 @@
           "caption": "Results for Grounding DINO and other detection models with the ResNet50",
           "bbox_pt": [
             128.76499938964844,
-            154.24676513671875,
+            196.9640185546875,
             453.74365234375,
             332.2353210449219
           ],
           "normalized_bbox": [
-            0.2104,
-            0.194756,
-            0.741411,
-            0.419489
+            0.21040032580007914,
+            0.24869194261955493,
+            0.7414111966401143,
+            0.4194890417233862
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "070920f024a5c02397d4a29651c8c46ece5722a929c523a38e1a6e6f1fe7d3d6",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.21040032580007914,
+            0.24869194261955493,
+            0.7414111966401143,
+            0.4194890417233862
+          ]
         }
       },
       {
@@ -5976,9 +6013,9 @@
           30
         ],
         "section_id": "sec:dataset",
-        "decision": "review_pending",
+        "decision": "visual_defect",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
-        "skip_reason": "",
+        "skip_reason": "identity_mismatch",
         "visual_quality_status": "usable_candidate",
         "priority": 2,
         "target_section": "关键结果",
@@ -6009,12 +6046,14 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
+          "status": "fail",
+          "reviewed_asset_sha256": "bf23cabe71843060ede7d273f225190159bd735e273a5194ca7d4152f42ac990",
           "preserved_scientific_elements": [],
-          "omitted_scientific_elements": [],
-          "notes": "",
-          "failure_reason": "",
+          "omitted_scientific_elements": [
+            "完整表体"
+          ],
+          "notes": "表8只剩参数表底部；表13候选实际是正文，没有该表。",
+          "failure_reason": "identity_mismatch",
           "repair_attempts": 0,
           "revised_bbox": []
         }
@@ -6050,7 +6089,7 @@
           29
         ],
         "section_id": "sec:results-2",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -6061,7 +6100,7 @@
         "relative_markdown_embed": "![Table 12](images/page_029_fig_table_12_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "a59bc87d85574380fedd5c2717cb1b3e1a6ab1f3218287d2a254a4c4db2ca8c6",
+        "source_image_sha256": "074c80f64e87e656f6400f27600921946cb49795b402c7d2453823860736b078",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_029.png",
@@ -6070,27 +6109,34 @@
           "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
           "bbox_pt": [
             181.88226318359375,
-            86.7219009399414,
+            180.87241821289064,
             486.6036071777344,
             557.4744873046875
           ],
           "normalized_bbox": [
-            0.297193,
-            0.109497,
-            0.795104,
-            0.703882
+            0.2971932404960682,
+            0.22837426542031647,
+            0.7951039332969516,
+            0.7038819284150095
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "074c80f64e87e656f6400f27600921946cb49795b402c7d2453823860736b078",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.2971932404960682,
+            0.22837426542031647,
+            0.7951039332969516,
+            0.7038819284150095
+          ]
         }
       },
       {
@@ -6103,7 +6149,7 @@
           31
         ],
         "section_id": "sec:dataset-2",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -6114,7 +6160,7 @@
         "relative_markdown_embed": "![Table 14](images/page_031_fig_table_14_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "b2f91ec08f50d0d6266c9695a10e299c1c0fe991d00977894917ace04c15338c",
+        "source_image_sha256": "e94376fb046670691cf6de1fde0bed28705ca019d6e9ad340f7ff41f0fda1678",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_031.png",
@@ -6123,27 +6169,34 @@
           "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L",
           "bbox_pt": [
             181.8822784423828,
-            86.7219009399414,
+            127.7132667541504,
             486.6036071777344,
             496.63555908203125
           ],
           "normalized_bbox": [
-            0.297193,
-            0.109497,
-            0.795104,
-            0.627065
+            0.2971932654287301,
+            0.16125412468958383,
+            0.7951039332969516,
+            0.6270650998510495
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "e94376fb046670691cf6de1fde0bed28705ca019d6e9ad340f7ff41f0fda1678",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.2971932654287301,
+            0.16125412468958383,
+            0.7951039332969516,
+            0.6270650998510495
+          ]
         }
       },
       {
@@ -6156,7 +6209,7 @@
           31
         ],
         "section_id": "sec:dataset-2",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -6189,11 +6242,13 @@
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "7f951defd14037d30bac64e814590c936710ea4b693c0eb1d5a8659b558d39d6",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
           "repair_attempts": 0,
           "revised_bbox": []
@@ -6245,7 +6300,7 @@
           33
         ],
         "section_id": "sec:model-11",
-        "decision": "review_pending",
+        "decision": "insert",
         "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
         "skip_reason": "",
         "visual_quality_status": "usable_candidate",
@@ -6256,7 +6311,7 @@
         "relative_markdown_embed": "![Table 18](images/page_033_fig_table_18_review.png)",
         "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18_review.png",
         "materialization_status": "pending",
-        "source_image_sha256": "c462be52c6d5effdb33eb2294e8f45ebe2660b2af4b4554f8c58e49656ca40c5",
+        "source_image_sha256": "d832f1a4d37d78f845a71ac251b29efe638aa05f90db716857cd744fd598d320",
         "review_evidence": {
           "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18_review.png",
           "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_033.png",
@@ -6265,27 +6320,34 @@
           "caption": "Comparison of Grounding DINO and GLIP on ODinW. Both models are",
           "bbox_pt": [
             129.93972778320312,
-            86.7219009399414,
+            123.98175743103027,
             486.6036071777344,
             500.7203063964844
           ],
           "normalized_bbox": [
-            0.21232,
-            0.109497,
-            0.795104,
-            0.632223
+            0.21231981663922078,
+            0.15654262301897762,
+            0.7951039332969516,
+            0.6322226090864702
           ],
           "render_dpi": 300
         },
         "visual_review": {
-          "status": "pending",
-          "reviewed_asset_sha256": "",
-          "preserved_scientific_elements": [],
+          "status": "pass",
+          "reviewed_asset_sha256": "d832f1a4d37d78f845a71ac251b29efe638aa05f90db716857cd744fd598d320",
+          "preserved_scientific_elements": [
+            "图表主体、文字标注、数值或连接关系"
+          ],
           "omitted_scientific_elements": [],
-          "notes": "",
+          "notes": "已检查原候选及修复后的图表；主体完整、编号匹配、无正文或图注混入。",
           "failure_reason": "",
-          "repair_attempts": 0,
-          "revised_bbox": []
+          "repair_attempts": 1,
+          "revised_bbox": [
+            0.21231981663922078,
+            0.15654262301897762,
+            0.7951039332969516,
+            0.6322226090864702
+          ]
         }
       },
       {
