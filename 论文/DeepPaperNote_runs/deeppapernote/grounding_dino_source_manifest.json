@@ -1,0 +1,1086 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2303.05499",
+  "title": "Grounding DINO: Marrying DINO with Grounded",
+  "source_sha256": "ba1c64ec2ac4fedeb50b269eadc994456a8428dbe64a8dba2673f22df0fa20b3",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_raw_sections.jsonl",
+  "full_text_md_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_full_text.md",
+  "pdf": {
+    "path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+    "total_pages": 33,
+    "text_pages_extracted": 33,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 33,
+    "text_max_pages": null,
+    "text_pages_extracted": 33,
+    "text_pages_scanned": 33,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 14
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 3186,
+      "text_hash_sha256": "3390b6090272e25e017b74645a79f57708bcb49e90b7b08122d14511d1c6e8ec"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 2,
+      "page_end": 4,
+      "char_count": 6254,
+      "text_hash_sha256": "8c00a3e9f04ca5628e147f74b9efddf94dfb2c8a84c4cf9f5fc0c5bd888685c2"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 4,
+      "page_end": 4,
+      "char_count": 1421,
+      "text_hash_sha256": "bc82a29a704721b33fbaea91c49dc2df5d51e16c9ebf0f8194dfe1cdf24c20d4"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 4,
+      "page_end": 8,
+      "char_count": 9287,
+      "text_hash_sha256": "de86dda4b4795609ed071a4c4a84a49dbd24638a14850716f8d1d2b76d6a5b84"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 2350,
+      "text_hash_sha256": "46c006ac90361f414ab33aca4f549670f1349855e05a021475a7fbebcc4e6084"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 8,
+      "page_end": 10,
+      "char_count": 4056,
+      "text_hash_sha256": "4fb2ec93a59d83d17fc627ae392b6fb41a45c2a6f5e6f8f5b3c8fd6f8344fc1d"
+    },
+    {
+      "section_id": "sec:model-3",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 10,
+      "page_end": 11,
+      "char_count": 2479,
+      "text_hash_sha256": "5fb1578f9ebbd427bbe0895add4fdc9e0ed5577b8afee93ffe676feb038ea7d3"
+    },
+    {
+      "section_id": "sec:model-4",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 11,
+      "page_end": 12,
+      "char_count": 3545,
+      "text_hash_sha256": "63e0e6a6874c08346cbfdf5100e287a5b1a06499a94c59f5fcaf5fab7926c001"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 12,
+      "page_end": 13,
+      "char_count": 2292,
+      "text_hash_sha256": "d68edce99df9ca47c48d257ebc4a8e55db94d552bd316dda27252eaf52d68c12"
+    },
+    {
+      "section_id": "sec:model-5",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 13,
+      "page_end": 13,
+      "char_count": 368,
+      "text_hash_sha256": "2eaaf6b97007d0de3751dce0efb881f0af38b2aeb94157cde284e3b57b5ecb60"
+    },
+    {
+      "section_id": "sec:ablations",
+      "kind": "experiment",
+      "title": "Ablations",
+      "page_start": 13,
+      "page_end": 13,
+      "char_count": 1495,
+      "text_hash_sha256": "47b219a2023b483265dd691ac95bea9a35e1ba22bb727b4e5d78f11b99ffd8eb"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "Conclusion",
+      "page_start": 13,
+      "page_end": 14,
+      "char_count": 490,
+      "text_hash_sha256": "cd2e36920526783796760c3810ad685bd67b56ebaf9f87fb4af3f85d85bb77d8"
+    },
+    {
+      "section_id": "sec:model-6",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 1768,
+      "text_hash_sha256": "42469c3e18a99ba62320ab7eeebac884f3bbc3c9e9f6b8748897ee816f6cefa8"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 14,
+      "page_end": 21,
+      "char_count": 16211,
+      "text_hash_sha256": "e30c564434cc3c30a7947e37b09fcb76eb53c1cbe17d83643333e44eb8e19a85"
+    },
+    {
+      "section_id": "sec:model-7",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 21,
+      "page_end": 22,
+      "char_count": 1901,
+      "text_hash_sha256": "cd19f01aa99f5fb9c89cdb5ab259562f3d021ff067d637f6ef125bf2af1232d6"
+    },
+    {
+      "section_id": "sec:model-8",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 22,
+      "page_end": 26,
+      "char_count": 8897,
+      "text_hash_sha256": "c1ba52aed330e3ad2c8d86ac5b0f3e8f4678932c15425cc41ad22380b490f70a"
+    },
+    {
+      "section_id": "sec:model-9",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 26,
+      "page_end": 27,
+      "char_count": 204,
+      "text_hash_sha256": "6fe6e9ffc9ac1c834f6155e3d9e9f8aa70002a6ed8a5e37f219bb67c6463b9b7"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 27,
+      "page_end": 28,
+      "char_count": 776,
+      "text_hash_sha256": "0f8c9f5ade922e966c2581a08ce36fdae3a634e288d40309aa5227756a22e817"
+    },
+    {
+      "section_id": "sec:results-2",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 28,
+      "page_end": 29,
+      "char_count": 854,
+      "text_hash_sha256": "52b8f74e622e53fc4a37bee93681ddf8d19d34fab96f1771e267d5530473bd28"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 29,
+      "page_end": 30,
+      "char_count": 1727,
+      "text_hash_sha256": "92d358e457b8ce907cd9a3f1b6c38161ec61a2d5d2c3f747e8c5f59a0ae1ead0"
+    },
+    {
+      "section_id": "sec:dataset-2",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 30,
+      "page_end": 31,
+      "char_count": 1740,
+      "text_hash_sha256": "e4f2ee87abaca6e21209953012c83502ae3acff91e3709ffbf17649be4c5a61d"
+    },
+    {
+      "section_id": "sec:dataset-3",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 31,
+      "page_end": 32,
+      "char_count": 2009,
+      "text_hash_sha256": "90edc34205f32c845ad538781376b96386256070ddd879500489d2065408c852"
+    },
+    {
+      "section_id": "sec:model-10",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 32,
+      "page_end": 32,
+      "char_count": 268,
+      "text_hash_sha256": "8e1ecf2d266606e5c1e8f5b7e3a23ff2a0dd2cc304431f31815de0d7760fd7ad"
+    },
+    {
+      "section_id": "sec:model-11",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 32,
+      "page_end": 33,
+      "char_count": 2122,
+      "text_hash_sha256": "cfeece6ca2eac1dd7aac4ff100e87d0434346b9e9df5dcc36c359c1bd4d0791c"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2559,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3015,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3404,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3326,
+      "section_ids": [
+        "sec:introduction",
+        "sec:model",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 2359,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2641,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2947,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2801,
+      "section_ids": [
+        "sec:related-work",
+        "sec:model-2",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 2746,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2700,
+      "section_ids": [
+        "sec:experiments",
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3128,
+      "section_ids": [
+        "sec:model-3",
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3214,
+      "section_ids": [
+        "sec:model-4",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2658,
+      "section_ids": [
+        "sec:method",
+        "sec:model-5",
+        "sec:ablations",
+        "sec:conclusion"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 2507,
+      "section_ids": [
+        "sec:conclusion",
+        "sec:model-6",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3414,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3529,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 3564,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 1322,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 1120,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 2253,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 2114,
+      "section_ids": [
+        "sec:references",
+        "sec:model-7"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 1937,
+      "section_ids": [
+        "sec:model-7",
+        "sec:model-8"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 2231,
+      "section_ids": [
+        "sec:model-8"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 2415,
+      "section_ids": [
+        "sec:model-8"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 989,
+      "section_ids": [
+        "sec:model-8"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 1805,
+      "section_ids": [
+        "sec:model-8",
+        "sec:model-9"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 788,
+      "section_ids": [
+        "sec:model-9",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 881,
+      "section_ids": [
+        "sec:results",
+        "sec:results-2"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 1803,
+      "section_ids": [
+        "sec:results-2",
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 1816,
+      "section_ids": [
+        "sec:dataset",
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 2108,
+      "section_ids": [
+        "sec:dataset-2",
+        "sec:dataset-3"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 686,
+      "section_ids": [
+        "sec:dataset-3",
+        "sec:model-10",
+        "sec:model-11"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 1736,
+      "section_ids": [
+        "sec:model-11"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "(a) Closed-set object detection requires models to detect objects of pre-defined",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Extending closed-set detectors to open-set scenarios.",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "The framework of Grounding DINO. We present the overall framework, a feature",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Comparisons of text representations.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "The variables image_feat and text_feat are used for image and text features,",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "Pseudocode of Language-guided Query Selection in",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Comparison between DINO and our Grounding DINO. We mark the modifica-",
+        "page": 23,
+        "pages": [
+          23
+        ],
+        "section_id": "sec:model-8"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Visualizations of model outputs.",
+        "page": 25,
+        "pages": [
+          25
+        ],
+        "section_id": "sec:model-8"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Top queries in language-guided query selection.",
+        "page": 25,
+        "pages": [
+          25
+        ],
+        "section_id": "sec:model-8"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Our model predictions and ground-truths in RefCOCO.",
+        "page": 26,
+        "pages": [
+          26
+        ],
+        "section_id": "sec:model-8"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Combination of Grounding DINO and Stable Diffusion. We first detect objects",
+        "page": 27,
+        "pages": [
+          27
+        ],
+        "section_id": "sec:model-9"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Combination of Grounding DINO and GLIGEN. We first detect objects",
+        "page": 28,
+        "pages": [
+          28
+        ],
+        "section_id": "sec:results"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "A comparison of previous open-set object detectors. Our summarization is",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Table 1",
+        "caption": "",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Zero-shot domain transfer and fine-tuning on COCO. * The results in brackets",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Table 2",
+        "caption": "We pre-train models on large-scale datasets and directly evaluate our",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Model results on LVIS.",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Model results on the ODinW benchmark.",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Top-1 accuracy comparison on the referring expression comprehension task.",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Impacts of RefC and COCO data for open-set settings. All models are trained",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Ablations for our model. All models are trained on the O365 dataset with a",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:conclusion"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Hyper-parameters used in our pre-trained models.",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Transfer pre-trained DINO to Grounding DINO. We freeze shared modules",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 10",
+        "caption": "Comparison between two Grounding DINO variants: Training from scratch",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 11",
+        "caption": "Results for Grounding DINO and other detection models with the ResNet50",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:model-7"
+      },
+      {
+        "id": "Table 13",
+        "caption": "and Table 14.",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:model-7"
+      },
+      {
+        "id": "Table 20",
+        "caption": "Comparison of model size and model efficiency between GLIP and Grounding",
+        "page": 26,
+        "pages": [
+          26
+        ],
+        "section_id": "sec:model-8"
+      },
+      {
+        "id": "Table 12",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "page": 29,
+        "pages": [
+          29
+        ],
+        "section_id": "sec:results-2"
+      },
+      {
+        "id": "Table 13",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "page": 30,
+        "pages": [
+          30
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Table 14",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L",
+        "page": 31,
+        "pages": [
+          31
+        ],
+        "section_id": "sec:dataset-2"
+      },
+      {
+        "id": "Table 15",
+        "caption": "Results for Grounding DINO Tiny with more decoder queries",
+        "page": 31,
+        "pages": [
+          31
+        ],
+        "section_id": "sec:dataset-2"
+      },
+      {
+        "id": "Table 16",
+        "caption": "Results for Grounding DINO with different language encoders",
+        "page": 32,
+        "pages": [
+          32
+        ],
+        "section_id": "sec:dataset-3"
+      },
+      {
+        "id": "Table 17",
+        "caption": "Oracle experiments on LVIS. Note that our model under the setting may be",
+        "page": 32,
+        "pages": [
+          32
+        ],
+        "section_id": "sec:dataset-3"
+      },
+      {
+        "id": "Table 18",
+        "caption": "Comparison of Grounding DINO and GLIP on ODinW. Both models are",
+        "page": 33,
+        "pages": [
+          33
+        ],
+        "section_id": "sec:model-11"
+      },
+      {
+        "id": "Table 19",
+        "caption": "Training on RefCOCO from scratch.",
+        "page": 33,
+        "pages": [
+          33
+        ],
+        "section_id": "sec:model-11"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "Let’s denote the image feature as XI ∈RNI×d and the text features as",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 8
+    },
+    {
+      "text": "XT ∈RNT ×d. Here, NI represents the number of image tokens, NT indicates",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 8
+    },
+    {
+      "text": "experiments, we specifically utilize a feature dimension of d = 256. Typically, in",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 8
+    },
+    {
+      "text": "\\ I mat _{N_q} = \\text",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 8
+    },
+    {
+      "text": "DINO(Swin-L) [57]",
+      "section_id": "sec:model-2",
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "text": "DINO(Swin-T)† [57]",
+      "section_id": "sec:model-2",
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "text": ">1243M",
+      "section_id": "sec:model-4",
+      "page_start": 11,
+      "page_end": 12
+    },
+    {
+      "text": "≈841M",
+      "section_id": "sec:model-4",
+      "page_start": 11,
+      "page_end": 12
+    },
+    {
+      "text": "≈100M",
+      "section_id": "sec:model-4",
+      "page_start": 11,
+      "page_end": 12
+    },
+    {
+      "text": "≈100M",
+      "section_id": "sec:model-4",
+      "page_start": 11,
+      "page_end": 12
+    },
+    {
+      "text": "id=oMI9PjOb9Jl",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 21
+    },
+    {
+      "text": "logits = torch.einsum(\"bic,btc->bit\", image_feat, text_feat) # bs, num_img_tokens,",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 21
+    },
+    {
+      "text": "logits_per_img_feat = logits.max(-1)[0]# bs, num_img_tokens",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 21
+    },
+    {
+      "text": "topk_idx = torch.topk(logits_per_img_feature, num_query, dim=1)[1] # bs, num_query",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 21
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "cb355f0ce84071815d2cb7b3a94c39ec1e05ab32463675a2fb67c9e6f36d8e2e",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2303.05499",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Grounding DINO: Marrying DINO with Grounded",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2303.05499",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Grounding DINO: Marrying DINO with Grounded",
+      "year": "",
+      "venue": "",
+      "source_url": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "doi": "",
+      "arxiv_id": "2303.05499",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "title": "Grounding DINO: Marrying DINO with Grounded",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "first_page_title_used",
+      "local_pdf_artifact_title": true,
+      "arxiv_id": "2303.05499",
+      "paper_id": "arxiv:2303.05499",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "first_page_title_used",
+        "local_pdf_artifact_title"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2303.05499.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2303.05499"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2303.05499"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2303.05499"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2303.05499"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2303.05499",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Grounding DINO: Marrying DINO with Grounded",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2303.05499"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Grounding DINO: Marrying DINO with Grounded",
+          "work_value": "Grounding DINO: Marrying DINO with Grounded"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_resolve.json",
+      "metadata_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Grounding DINO: Marrying DINO with Grounded",
+    "year": "",
+    "venue": "",
+    "source_url": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+    "doi": "",
+    "arxiv_id": "2303.05499",
+    "zotero_key": ""
+  }
+}

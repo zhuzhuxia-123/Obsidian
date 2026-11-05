@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+  "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+  "title": "Grounding DINO: Marrying DINO with Grounded",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "local_pdf_artifact_title": true,
+  "arxiv_id": "2303.05499",
+  "paper_id": "arxiv:2303.05499",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "first_page_title_used",
+    "local_pdf_artifact_title"
+  ],
+  "script": "resolve_paper.py"
+}

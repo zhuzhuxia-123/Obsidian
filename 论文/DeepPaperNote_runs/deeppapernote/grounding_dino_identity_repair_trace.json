@@ -1,0 +1,120 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "artifact_type": "identity_repair_trace",
+  "schema_version": 2,
+  "paper_id": "arxiv:2303.05499",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "repair_attempts": [],
+  "accepted_observations": [],
+  "rejected_observations": [],
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2303.05499.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    }
+  ],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2303.05499"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2303.05499"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2303.05499"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2303.05499"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2303.05499",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "Grounding DINO: Marrying DINO with Grounded",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2303.05499"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "Grounding DINO: Marrying DINO with Grounded",
+        "work_value": "Grounding DINO: Marrying DINO with Grounded"
+      }
+    ]
+  },
+  "warnings": [],
+  "unresolved_risks": [],
+  "failure_summary": "",
+  "provenance": {
+    "resolve_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_resolve.json",
+    "metadata_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_metadata.json"
+  }
+}

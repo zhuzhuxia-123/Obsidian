@@ -1,0 +1,1142 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "output_language": "zh-CN",
+  "paper_id": "arxiv:2303.05499",
+  "asset_subdir": "images",
+  "decisions": [
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "(a) Closed-set object detection requires models to detect objects of pre-defined",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Extending closed-set detectors to open-set scenarios.",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:preamble",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "The framework of Grounding DINO. We present the overall framework, a feature",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:related-work",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_fig_3_review.png",
+      "relative_markdown_embed": "![Fig 3](images/page_005_fig_fig_3_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2b8e4ccf06b7ea9bfaf16bb2eebf0edeb6358aaf44f4b1ae67759cac6a6a4c76",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_005.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 5,
+        "caption": "The framework of Grounding DINO. We present the overall framework, a feature",
+        "bbox_pt": [
+          126.02104187011719,
+          88.7219009399414,
+          492.5831298828125,
+          363.3540344238281
+        ],
+        "normalized_bbox": [
+          0.205917,
+          0.112023,
+          0.804874,
+          0.45878
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Comparisons of text representations.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:related-work",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_fig_4_review.png",
+      "relative_markdown_embed": "![Fig 4](images/page_006_fig_fig_4_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d477299149b566c13f05375fbcaa3f98073002d1614daccee2f8ee7cbef93972",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_006.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 6,
+        "caption": "Comparisons of text representations.",
+        "bbox_pt": [
+          126.03753662109375,
+          281.3816833496094,
+          484.5497131347656,
+          410.9128723144531
+        ],
+        "normalized_bbox": [
+          0.205944,
+          0.35528,
+          0.791748,
+          0.518829
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Algorithm 1",
+      "source_id": "Algorithm 1",
+      "kind": "figure",
+      "label": "Algorithm 1",
+      "caption": "The variables image_feat and text_feat are used for image and text features,",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:references",
+      "decision": "visual_defect",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_020_fig_algorithm_1.png",
+      "relative_markdown_embed": "![Algorithm 1](images/page_020_fig_algorithm_1.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_020_fig_algorithm_1.png"
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Comparison between DINO and our Grounding DINO. We mark the modifica-",
+      "pages": [
+        23
+      ],
+      "section_id": "sec:model-8",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_023_fig_fig_5_review.png",
+      "relative_markdown_embed": "![Fig 5](images/page_023_fig_fig_5_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_fig_fig_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "f5c5f9735c6ec926f76cd9e7e3e3e9f302c9f929d542f716594aea35a91b34b1",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_fig_fig_5_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_023.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 23,
+        "caption": "Comparison between DINO and our Grounding DINO. We mark the modifica-",
+        "bbox_pt": [
+          130.76499938964844,
+          111.837646484375,
+          484.5802001953125,
+          358.0369567871094
+        ],
+        "normalized_bbox": [
+          0.213668,
+          0.141209,
+          0.791798,
+          0.452067
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Visualizations of model outputs.",
+      "pages": [
+        25
+      ],
+      "section_id": "sec:model-8",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Top queries in language-guided query selection.",
+      "pages": [
+        25
+      ],
+      "section_id": "sec:model-8",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Our model predictions and ground-truths in RefCOCO.",
+      "pages": [
+        26
+      ],
+      "section_id": "sec:model-8",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Combination of Grounding DINO and Stable Diffusion. We first detect objects",
+      "pages": [
+        27
+      ],
+      "section_id": "sec:model-9",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Combination of Grounding DINO and GLIGEN. We first detect objects",
+      "pages": [
+        28
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "A comparison of previous open-set object detectors. Our summarization is",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_004_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_004_fig_table_1_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "05dcc9fc5048176af96792f13c72b98575866aee7d224e90773ade7c8c45e4a5",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_004.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 4,
+        "caption": "A comparison of previous open-set object detectors. Our summarization is",
+        "bbox_pt": [
+          129.4146728515625,
+          208.7384796142578,
+          485.9516296386719,
+          302.61431884765625
+        ],
+        "normalized_bbox": [
+          0.211462,
+          0.263559,
+          0.794039,
+          0.382089
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Zero-shot domain transfer and fine-tuning on COCO. * The results in brackets",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:related-work",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_table_2_review.png",
+      "relative_markdown_embed": "![Table 2](images/page_008_fig_table_2_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0ab803df926b7f9184d6948bbe4e0fb05a42a2f2e00c3777474fd7e592f441ef",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_008.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 8,
+        "caption": "Zero-shot domain transfer and fine-tuning on COCO. * The results in brackets",
+        "bbox_pt": [
+          131.89161682128906,
+          112.69328308105469,
+          483.4659423828125,
+          282.244873046875
+        ],
+        "normalized_bbox": [
+          0.215509,
+          0.142289,
+          0.789977,
+          0.35637
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Model results on LVIS.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:experiments",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_table_3_review.png",
+      "relative_markdown_embed": "![Table 3](images/page_010_fig_table_3_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "78926d1da8540d2821ff841ca748815ee5cf7b215c5cb5e5fe297f9ad6e5c593",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_010.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 10,
+        "caption": "Model results on LVIS.",
+        "bbox_pt": [
+          182.75222778320312,
+          298.705078125,
+          427.385498046875,
+          443.4056396484375
+        ],
+        "normalized_bbox": [
+          0.298615,
+          0.377153,
+          0.698342,
+          0.559856
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Model results on the ODinW benchmark.",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model-3",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_table_4_review.png",
+      "relative_markdown_embed": "![Table 4](images/page_011_fig_table_4_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "9ad3e176fbfdc97186c451962a971d7c832333d85066f1867a2e21e8b65915b4",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_011.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 11,
+        "caption": "Model results on the ODinW benchmark.",
+        "bbox_pt": [
+          131.46310424804688,
+          243.53648376464844,
+          483.6035461425781,
+          453.8133239746094
+        ],
+        "normalized_bbox": [
+          0.214809,
+          0.307496,
+          0.790202,
+          0.572997
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "Top-1 accuracy comparison on the referring expression comprehension task.",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-4",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_012_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_012_fig_table_5_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_012_fig_table_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "e1dbe515f626de968cba3722a7bc342654baacd4dedba7cba6fb6d277f4ea787",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_012_fig_table_5_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_012.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 12,
+        "caption": "Top-1 accuracy comparison on the referring expression comprehension task.",
+        "bbox_pt": [
+          129.59555053710938,
+          356.9917297363281,
+          483.94940185546875,
+          488.05950927734375
+        ],
+        "normalized_bbox": [
+          0.211757,
+          0.450747,
+          0.790767,
+          0.616237
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 6",
+      "source_id": "Table 6",
+      "kind": "table",
+      "label": "Table 6",
+      "caption": "Impacts of RefC and COCO data for open-set settings. All models are trained",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:method",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 7",
+      "source_id": "Table 7",
+      "kind": "table",
+      "label": "Table 7",
+      "caption": "Ablations for our model. All models are trained on the O365 dataset with a",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:conclusion",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_014_fig_table_7_review.png",
+      "relative_markdown_embed": "![Table 7](images/page_014_fig_table_7_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_014_fig_table_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2091786c9fc6e966fd3f3d64c738531023bac811c70a45b1e5144f2632ddeabe",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_014_fig_table_7_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_014.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 14,
+        "caption": "Ablations for our model. All models are trained on the O365 dataset with a",
+        "bbox_pt": [
+          180.15750122070312,
+          112.92729949951172,
+          432.11859130859375,
+          188.9403839111328
+        ],
+        "normalized_bbox": [
+          0.294375,
+          0.142585,
+          0.706076,
+          0.238561
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 8",
+      "source_id": "Table 8",
+      "kind": "table",
+      "label": "Table 8",
+      "caption": "Hyper-parameters used in our pre-trained models.",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:references",
+      "decision": "review_pending",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_019_fig_table_8_review.png",
+      "relative_markdown_embed": "![Table 8](images/page_019_fig_table_8_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_019_fig_table_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "41a9bb068a8ff01027615133901478e40aadf788e25d5c5ceedb6fac90fe2e4e",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_019_fig_table_8_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_019.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 19,
+        "caption": "Hyper-parameters used in our pre-trained models.",
+        "bbox_pt": [
+          231.69097900390625,
+          340.9128723144531,
+          371.1332092285156,
+          427.6322937011719
+        ],
+        "normalized_bbox": [
+          0.37858,
+          0.430446,
+          0.606427,
+          0.53994
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 9",
+      "source_id": "Table 9",
+      "kind": "table",
+      "label": "Table 9",
+      "caption": "Transfer pre-trained DINO to Grounding DINO. We freeze shared modules",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:references",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_021_fig_table_9.png",
+      "relative_markdown_embed": "![Table 9](images/page_021_fig_table_9.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_9.png"
+    },
+    {
+      "item_id": "table:Table 10",
+      "source_id": "Table 10",
+      "kind": "table",
+      "label": "Table 10",
+      "caption": "Comparison between two Grounding DINO variants: Training from scratch",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:references",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_021_fig_table_10.png",
+      "relative_markdown_embed": "![Table 10](images/page_021_fig_table_10.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_10.png"
+    },
+    {
+      "item_id": "table:Table 11",
+      "source_id": "Table 11",
+      "kind": "table",
+      "label": "Table 11",
+      "caption": "Results for Grounding DINO and other detection models with the ResNet50",
+      "pages": [
+        22
+      ],
+      "section_id": "sec:model-7",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_022_fig_table_11_review.png",
+      "relative_markdown_embed": "![Table 11](images/page_022_fig_table_11_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "4f5f33ee2a3d1ca9e3051f95e31e230755f6dcfcca2add6d1be6642deb655c4d",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_022.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 22,
+        "caption": "Results for Grounding DINO and other detection models with the ResNet50",
+        "bbox_pt": [
+          128.76499938964844,
+          154.24676513671875,
+          453.74365234375,
+          332.2353210449219
+        ],
+        "normalized_bbox": [
+          0.2104,
+          0.194756,
+          0.741411,
+          0.419489
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 13",
+      "source_id": "Table 13",
+      "kind": "table",
+      "label": "Table 13",
+      "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+      "pages": [
+        30
+      ],
+      "section_id": "sec:dataset",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_022_fig_table_13_review.png",
+      "relative_markdown_embed": "![Table 13](images/page_022_fig_table_13_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "bf23cabe71843060ede7d273f225190159bd735e273a5194ca7d4152f42ac990",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_022.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 22,
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "bbox_pt": [
+          128.2570037841797,
+          530.4407348632812,
+          486.77044677734375,
+          671.11083984375
+        ],
+        "normalized_bbox": [
+          0.20957,
+          0.669748,
+          0.795377,
+          0.847362
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 20",
+      "source_id": "Table 20",
+      "kind": "table",
+      "label": "Table 20",
+      "caption": "Comparison of model size and model efficiency between GLIP and Grounding",
+      "pages": [
+        26
+      ],
+      "section_id": "sec:model-8",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_026_fig_table_20.png",
+      "relative_markdown_embed": "![Table 20](images/page_026_fig_table_20.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_fig_table_20.png"
+    },
+    {
+      "item_id": "table:Table 12",
+      "source_id": "Table 12",
+      "kind": "table",
+      "label": "Table 12",
+      "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+      "pages": [
+        29
+      ],
+      "section_id": "sec:results-2",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_029_fig_table_12_review.png",
+      "relative_markdown_embed": "![Table 12](images/page_029_fig_table_12_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "a59bc87d85574380fedd5c2717cb1b3e1a6ab1f3218287d2a254a4c4db2ca8c6",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_029.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 29,
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "bbox_pt": [
+          181.88226318359375,
+          86.7219009399414,
+          486.6036071777344,
+          557.4744873046875
+        ],
+        "normalized_bbox": [
+          0.297193,
+          0.109497,
+          0.795104,
+          0.703882
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 14",
+      "source_id": "Table 14",
+      "kind": "table",
+      "label": "Table 14",
+      "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L",
+      "pages": [
+        31
+      ],
+      "section_id": "sec:dataset-2",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_031_fig_table_14_review.png",
+      "relative_markdown_embed": "![Table 14](images/page_031_fig_table_14_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b2f91ec08f50d0d6266c9695a10e299c1c0fe991d00977894917ace04c15338c",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_031.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 31,
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L",
+        "bbox_pt": [
+          181.8822784423828,
+          86.7219009399414,
+          486.6036071777344,
+          496.63555908203125
+        ],
+        "normalized_bbox": [
+          0.297193,
+          0.109497,
+          0.795104,
+          0.627065
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 15",
+      "source_id": "Table 15",
+      "kind": "table",
+      "label": "Table 15",
+      "caption": "Results for Grounding DINO Tiny with more decoder queries",
+      "pages": [
+        31
+      ],
+      "section_id": "sec:dataset-2",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_031_fig_table_15_review.png",
+      "relative_markdown_embed": "![Table 15](images/page_031_fig_table_15_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7f951defd14037d30bac64e814590c936710ea4b693c0eb1d5a8659b558d39d6",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_031.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 31,
+        "caption": "Results for Grounding DINO Tiny with more decoder queries",
+        "bbox_pt": [
+          164.72222900390625,
+          562.5794677734375,
+          449.85595703125,
+          631.7210083007812
+        ],
+        "normalized_bbox": [
+          0.269154,
+          0.710328,
+          0.735059,
+          0.797628
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 16",
+      "source_id": "Table 16",
+      "kind": "table",
+      "label": "Table 16",
+      "caption": "Results for Grounding DINO with different language encoders",
+      "pages": [
+        32
+      ],
+      "section_id": "sec:dataset-3",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "table:Table 17",
+      "source_id": "Table 17",
+      "kind": "table",
+      "label": "Table 17",
+      "caption": "Oracle experiments on LVIS. Note that our model under the setting may be",
+      "pages": [
+        32
+      ],
+      "section_id": "sec:dataset-3",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    },
+    {
+      "item_id": "table:Table 18",
+      "source_id": "Table 18",
+      "kind": "table",
+      "label": "Table 18",
+      "caption": "Comparison of Grounding DINO and GLIP on ODinW. Both models are",
+      "pages": [
+        33
+      ],
+      "section_id": "sec:model-11",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_033_fig_table_18_review.png",
+      "relative_markdown_embed": "![Table 18](images/page_033_fig_table_18_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c462be52c6d5effdb33eb2294e8f45ebe2660b2af4b4554f8c58e49656ca40c5",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\page_previews\\page_033.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文2\\Liu 等 - 2023 - Grounding DINO Marrying DINO with Grounded Pre-Training for Open-Set Object Detection.pdf",
+        "source_page": 33,
+        "caption": "Comparison of Grounding DINO and GLIP on ODinW. Both models are",
+        "bbox_pt": [
+          129.93972778320312,
+          86.7219009399414,
+          486.6036071777344,
+          500.7203063964844
+        ],
+        "normalized_bbox": [
+          0.21232,
+          0.109497,
+          0.795104,
+          0.632223
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 19",
+      "source_id": "Table 19",
+      "kind": "table",
+      "label": "Table 19",
+      "caption": "Training on RefCOCO from scratch.",
+      "pages": [
+        33
+      ],
+      "section_id": "sec:model-11",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    }
+  ],
+  "summary": {
+    "total_items": 31,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 8,
+      "placeholder": 3,
+      "review_pending": 16,
+      "skip": 0,
+      "visual_defect": 4
+    }
+  }
+}

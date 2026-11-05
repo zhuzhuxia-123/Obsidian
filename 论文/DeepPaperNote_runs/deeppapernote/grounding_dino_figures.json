@@ -1,0 +1,3994 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2303.05499",
+  "output_language": "zh-CN",
+  "figure_plan": {
+    "paper_id": "arxiv:2303.05499",
+    "figures": [
+      {
+        "id": "Fig 3",
+        "caption": "The framework of Grounding DINO. We present the overall framework, a feature",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_3.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3.png",
+          "width": 488,
+          "height": 366,
+          "size_bytes": 62505,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.207693,
+            "visual_rect_count": 51,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 168,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "framework",
+              "grounding",
+              "dino",
+              "present",
+              "overall"
+            ],
+            "snippet": "ntrastive loss Localization loss 1 1 A cat sets on a table . cat . person . mouse . 1 1 1 Fig. 3: The framework of Grounding DINO. We present the overall framework, a feature enhancer la",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_01.jpeg",
+                "width": 533,
+                "height": 533,
+                "size_bytes": 40287
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_02.png",
+                "width": 1102,
+                "height": 161,
+                "size_bytes": 4545
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_03.png",
+                "width": 1102,
+                "height": 161,
+                "size_bytes": 4526
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3.png",
+                "width": 488,
+                "height": 366,
+                "size_bytes": 62505,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207693,
+                  "visual_rect_count": 51,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 168,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_table_1.png",
+                "width": 816,
+                "height": 99,
+                "size_bytes": 24271,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.094349,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 824,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 8,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "grounding",
+              "dino",
+              "present"
+            ],
+            "snippet": "ncer includes multiple feature enhancer layers. We illustrate a feature enhancer layer in Fig. 3 block 2. We leverage the Deformable self-attention to enhance image features and the vani",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4.png",
+                "width": 478,
+                "height": 172,
+                "size_bytes": 25958,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.095808,
+                  "visual_rect_count": 41,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 726,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "present"
+            ],
+            "snippet": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection Shilong Liu1",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "The variables image_feat and text_feat are used for image and text features,",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_algorithm_1.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_020_fig_algorithm_1.png",
+          "width": 816,
+          "height": 159,
+          "size_bytes": 2023,
+          "label": "Algorithm 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.151055,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 81,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 19,
+            "score": 8,
+            "matched_terms": [
+              "algorithm 1",
+              "variables",
+              "image",
+              "feat",
+              "text",
+              "used"
+            ],
+            "snippet": "ery Selection We present the pseudo-code of the Language-Guided Query Selection module in Algorithm 1. The variables image_feat and text_feat are used for image and text features, respectivel",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_table_8.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_019_fig_table_8.png",
+                "width": 185,
+                "height": 115,
+                "size_bytes": 5888,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024948,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 366,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "algorithm 1",
+              "image",
+              "feat",
+              "text"
+            ],
+            "snippet": "20 S. Liu et al. Algorithm 1: Pseudocode of Language-guided Query Selection in PyTorch-like style. 1 \"\"\" 2 Input: 3 im",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_algorithm_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_020_fig_algorithm_1.png",
+                "width": 816,
+                "height": 159,
+                "size_bytes": 2023,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.151055,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "image",
+              "feat",
+              "text"
+            ],
+            "snippet": "g Expression Comprehension) Human-input reference sentences bench person (c) Application: Image Editing Collaborate with stable diffusion. Prompt (modify background): All people around",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Comparisons of text representations.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_4.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4.png",
+          "width": 478,
+          "height": 172,
+          "size_bytes": 25958,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.095808,
+            "visual_rect_count": 41,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 726,
+            "table_body_rows": 0,
+            "caption_text_chars": 44,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "comparisons",
+              "text",
+              "representations"
+            ],
+            "snippet": "b) Word level (c) Sub-sentence level cat. baseball glove . A cat is sleeping on a table . Fig. 4: Comparisons of text representations. 3.1 Feature Extraction and Enhancer Given an (Image",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4.png",
+                "width": 478,
+                "height": 172,
+                "size_bytes": 25958,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.095808,
+                  "visual_rect_count": 41,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 726,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 6,
+            "matched_terms": [
+              "fig. 4",
+              "text"
+            ],
+            "snippet": "add COCO data during model training. We list the result here for a reference. As shown in Fig. 4 (b), some unrelated words interact during attention. To avoid unwanted word interactions,",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+                "width": 468,
+                "height": 226,
+                "size_bytes": 23888,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122982,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 366,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "text"
+            ],
+            "snippet": ". Prompt (modify detected objects): Dog (b) Open-Set Object Detection Object localization Text understanding (a) Closed-Set Object Detection Fig. 1: (a) Closed-set object detection req",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Comparison between DINO and our Grounding DINO. We mark the modifica-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_023_fig_fig_5.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_fig_fig_5.png",
+          "width": 471,
+          "height": 328,
+          "size_bytes": 46079,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.179716,
+            "visual_rect_count": 38,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 112,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "between",
+              "dino",
+              "grounding",
+              "mark"
+            ],
+            "snippet": "22 S. Liu et al. Grounding DINO in Fig. 5. We mark the DINO blocks in gray, while the newly proposed modules are shaded in blue. C.",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 23,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "comparison",
+              "between",
+              "dino",
+              "grounding",
+              "mark"
+            ],
+            "snippet": "Text Features cat dog desk person dog mouse table sets Contrastive loss Localization loss Fig. 5: Comparison between DINO and our Grounding DINO. We mark the modifica- tions in blue. Bes",
+            "images": [
+              {
+                "filename": "page_023_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_img_01.png",
+                "width": 138,
+                "height": 138,
+                "size_bytes": 519
+              },
+              {
+                "filename": "page_023_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_img_02.png",
+                "width": 252,
+                "height": 252,
+                "size_bytes": 2003
+              },
+              {
+                "filename": "page_023_img_03.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_img_03.jpeg",
+                "width": 215,
+                "height": 215,
+                "size_bytes": 6819
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_023_fig_fig_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_023_fig_fig_5.png",
+                "width": 471,
+                "height": 328,
+                "size_bytes": 46079,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.179716,
+                  "visual_rect_count": 38,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "dino",
+              "grounding",
+              "mark"
+            ],
+            "snippet": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection Shilong Liu1,2⋆,",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "A comparison of previous open-set object detectors. Our summarization is",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_1.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+          "width": 475,
+          "height": 125,
+          "size_bytes": 14381,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.069053,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 925,
+            "table_body_rows": 14,
+            "caption_text_chars": 551,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "comparison",
+              "previous",
+              "open-set",
+              "object",
+              "detectors"
+            ],
+            "snippet": "t Grounding DINO (Ours) DINO A,B,C sub-sentence ✓ zero-shot zero-shot zero-shot zero-shot Table 1: A comparison of previous open-set object detectors. Our summarization is based on the ex",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "previous",
+              "open-set",
+              "object"
+            ],
+            "snippet": "tant scenario for open-set detection. We compare our model with other open-set methods in Table 1. 3 Grounding DINO Grounding DINO outputs multiple pairs of object boxes and noun phrases",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_01.jpeg",
+                "width": 533,
+                "height": 533,
+                "size_bytes": 40287
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_02.png",
+                "width": 1102,
+                "height": 161,
+                "size_bytes": 4545
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_img_03.png",
+                "width": 1102,
+                "height": 161,
+                "size_bytes": 4526
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_fig_3.png",
+                "width": 488,
+                "height": 366,
+                "size_bytes": 62505,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207693,
+                  "visual_rect_count": 51,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 168,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_005_fig_table_1.png",
+                "width": 816,
+                "height": 99,
+                "size_bytes": 24271,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.094349,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 824,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 8,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 21,
+            "score": 6,
+            "matched_terms": [
+              "table 1",
+              "comparison"
+            ],
+            "snippet": "38.12 46.32 Training Curves of Different Training Ways From Scratch From DINO Pretrained Table 10: Comparison between two Grounding DINO variants: Training from scratch and transfer from",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_table_9.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_9.png",
+                "width": 816,
+                "height": 235,
+                "size_bytes": 24116,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.223233,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 387,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 8,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_021_fig_table_10.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_10.png",
+                "width": 218,
+                "height": 144,
+                "size_bytes": 4843,
+                "label": "Table 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.036497,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 175,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 10",
+        "caption": "Comparison between two Grounding DINO variants: Training from scratch",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_021_fig_table_10.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_10.png",
+          "width": 218,
+          "height": 144,
+          "size_bytes": 4843,
+          "label": "Table 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing"
+            ],
+            "page_coverage_ratio": 0.036497,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 175,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 21,
+            "score": 8,
+            "matched_terms": [
+              "table 10",
+              "comparison",
+              "between",
+              "grounding",
+              "dino",
+              "variants"
+            ],
+            "snippet": "38.12 46.32 Training Curves of Different Training Ways From Scratch From DINO Pretrained Table 10: Comparison between two Grounding DINO variants: Training from scratch and transfer from",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_table_9.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_9.png",
+                "width": 816,
+                "height": 235,
+                "size_bytes": 24116,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.223233,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 387,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 8,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_021_fig_table_10.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_10.png",
+                "width": 218,
+                "height": 144,
+                "size_bytes": 4843,
+                "label": "Table 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.036497,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 175,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "between",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "a language-aware semantic space. The key to achieving this goal is using contrastive loss between region outputs and language features at the neck and/or head outputs. Backbone (ResNet,Sw",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "DINO (Ours) DINO A,B,C sub-sentence ✓ zero-shot zero-shot zero-shot zero-shot Table 1: A comparison of previous open-set object detectors. Our summarization is based on the experiments in t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 11",
+        "caption": "Results for Grounding DINO and other detection models with the ResNet50",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_022_fig_table_11.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+          "width": 433,
+          "height": 237,
+          "size_bytes": 29952,
+          "label": "Table 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.119336,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 466,
+            "table_body_rows": 13,
+            "caption_text_chars": 157,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 11",
+              "grounding",
+              "dino",
+              "other",
+              "detection",
+              "models"
+            ],
+            "snippet": "12 49.0 66.6 53.5 32.0 52.3 63.0 Grounding DINO (4scale) 12 48.1 65.8 52.3 30.4 51.3 62.3 Table 11: Results for Grounding DINO and other detection models with the ResNet50 backbone on COCO",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "detection",
+              "models"
+            ],
+            "snippet": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection Shilong Liu1",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "detection",
+              "models"
+            ],
+            "snippet": "2 S. Liu et al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and refe",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 12",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_029_fig_table_12.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12.png",
+          "width": 406,
+          "height": 627,
+          "size_bytes": 60820,
+          "label": "Table 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.29595,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1640,
+            "table_body_rows": 37,
+            "caption_text_chars": 111,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 12",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "ults on ODinW Benchmarks We present detailed results of Grounding DINO on ODinW35 [23] in Table 12, Table 13, and Table 14. C.4 Model Efficiency We compare the model size and efficiency be",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 29,
+            "score": 8,
+            "matched_terms": [
+              "table 12",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "People 72.67 86.65 79.98 33.93 30.2 86.71 websiteScreenshots 1.51 2.8 1.42 0.85 2.06 2.59 Table 12: Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T pre-trained on O3",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_029_fig_table_12.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_029_fig_table_12.png",
+                "width": 406,
+                "height": 627,
+                "size_bytes": 60820,
+                "label": "Table 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.29595,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1640,
+                  "table_body_rows": 37,
+                  "caption_text_chars": 111,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "datasets",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "odality decoder for modal- ities fusion. We first pre-train Grounding DINO on large-scale datasets, ⋆This work was done when Shilong Liu, Feng Li, Hao Zhang, Jie Yang, and Qing Jiang were",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 13",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_022_fig_table_13.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+          "width": 478,
+          "height": 187,
+          "size_bytes": 23803,
+          "label": "Table 13",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.104047,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 293,
+            "table_body_rows": 2,
+            "caption_text_chars": 23,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 13",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "inW Benchmarks We present detailed results of Grounding DINO on ODinW35 [23] in Table 12, Table 13, and Table 14. C.4 Model Efficiency We compare the model size and efficiency between Grou",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 30,
+            "score": 8,
+            "matched_terms": [
+              "table 13",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "eople 67.89 80.85 78.66 45.05 30.24 85.56 websiteScreenshots 1.3 2.26 1.21 0.95 1.81 2.23 Table 13: Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-T pre-trained on O3",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_030_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_030_fig_table_13.png",
+                "width": 335,
+                "height": 490,
+                "size_bytes": 54993,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.191032,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1646,
+                  "table_body_rows": 36,
+                  "caption_text_chars": 119,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "datasets",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "odality decoder for modal- ities fusion. We first pre-train Grounding DINO on large-scale datasets, ⋆This work was done when Shilong Liu, Feng Li, Hao Zhang, Jie Yang, and Qing Jiang were",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 14",
+        "caption": "Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_031_fig_table_14.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14.png",
+          "width": 406,
+          "height": 546,
+          "size_bytes": 59512,
+          "label": "Table 14",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.257703,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1643,
+            "table_body_rows": 37,
+            "caption_text_chars": 135,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 14",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "We present detailed results of Grounding DINO on ODinW35 [23] in Table 12, Table 13, and Table 14. C.4 Model Efficiency We compare the model size and efficiency between Grounding DINO T a",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 31,
+            "score": 8,
+            "matched_terms": [
+              "table 14",
+              "detailed",
+              "datasets",
+              "odinw",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "eople 72.02 86.02 79.47 29.16 68.05 86.75 websiteScreenshots 1.32 2.64 1.16 0.79 1.8 2.46 Table 14: Detailed results on 35 datasets in ODinW of Grounding DINO with Swin-L pre-trained on O3",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_031_fig_table_14.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14.png",
+                "width": 406,
+                "height": 546,
+                "size_bytes": 59512,
+                "label": "Table 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.257703,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1643,
+                  "table_body_rows": 37,
+                  "caption_text_chars": 135,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_031_fig_table_15.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15.png",
+                "width": 380,
+                "height": 92,
+                "size_bytes": 9553,
+                "label": "Table 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 145,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "datasets",
+              "grounding",
+              "dino"
+            ],
+            "snippet": "odality decoder for modal- ities fusion. We first pre-train Grounding DINO on large-scale datasets, ⋆This work was done when Shilong Liu, Feng Li, Hao Zhang, Jie Yang, and Qing Jiang were",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 15",
+        "caption": "Results for Grounding DINO Tiny with more decoder queries",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_031_fig_table_15.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15.png",
+          "width": 380,
+          "height": 92,
+          "size_bytes": 9553,
+          "label": "Table 15",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.040673,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 145,
+            "table_body_rows": 5,
+            "caption_text_chars": 67,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 15",
+              "grounding",
+              "dino",
+              "more",
+              "decoder"
+            ],
+            "snippet": "itional experiments with 1200 and 1500 queries on the COCO and LVIS datasets, detailed in Table 15 below.",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 31,
+            "score": 8,
+            "matched_terms": [
+              "table 15",
+              "grounding",
+              "dino",
+              "tiny",
+              "more",
+              "decoder"
+            ],
+            "snippet": "0 46.7 32.3 49.9 61.1 15.7 9.0 23.1 29.1 O365 1500 46.9 32.7 50.3 61.3 15.8 9.2 23.0 29.0 Table 15: Results for Grounding DINO Tiny with more decoder queries",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_031_fig_table_14.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_14.png",
+                "width": 406,
+                "height": 546,
+                "size_bytes": 59512,
+                "label": "Table 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.257703,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1643,
+                  "table_body_rows": 37,
+                  "caption_text_chars": 135,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_031_fig_table_15.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_031_fig_table_15.png",
+                "width": 380,
+                "height": 92,
+                "size_bytes": 9553,
+                "label": "Table 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 145,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "decoder"
+            ],
+            "snippet": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection Shilong Liu1",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 16",
+        "caption": "Results for Grounding DINO with different language encoders",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "language"
+            ],
+            "snippet": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection Shilong Liu1",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "language"
+            ],
+            "snippet": "2 S. Liu et al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and refe",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "language"
+            ],
+            "snippet": "ection, as shown in Fig. 1, to compre- hensively evaluate open-set detection performance. Grounding DINO outperforms competitors by a large margin. For example, Grounding DINO reaches a 52.",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 17",
+        "caption": "Oracle experiments on LVIS. Note that our model under the setting may be",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "experiments",
+              "lvis",
+              "model"
+            ],
+            "snippet": "4 S. Liu et al. We conduct experiments on all three settings, including closed-set detection, open-set detection, and referring",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "experiments",
+              "lvis",
+              "model"
+            ],
+            "snippet": "e models, we add auxiliary loss after each decoder layer and after the encoder outputs. 4 Experiments We conduct extensive experiments on three settings: a closed-set setting on the COCO dete",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+                "width": 468,
+                "height": 226,
+                "size_bytes": 23888,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122982,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 366,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "lvis",
+              "note",
+              "model"
+            ],
+            "snippet": "OCO test-dev with fine-tuning on the COCO dataset(See the number in brackets of Table 2). LVIS Benchmark LVIS [15] is a dataset for long-tail objects. It contains more than 1000 catego",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3.png",
+                "width": 326,
+                "height": 192,
+                "size_bytes": 20090,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.073031,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 0.09094,
+                  "paragraph_text_chars": 408,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 18",
+        "caption": "Comparison of Grounding DINO and GLIP on ODinW. Both models are",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_033_fig_table_18.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18.png",
+          "width": 475,
+          "height": 551,
+          "size_bytes": 57224,
+          "label": "Table 18",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.304636,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1244,
+            "table_body_rows": 39,
+            "caption_text_chars": 133,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 33,
+            "score": 8,
+            "matched_terms": [
+              "table 18",
+              "comparison",
+              "grounding",
+              "dino",
+              "glip",
+              "odinw"
+            ],
+            "snippet": "xport (↑) 8.00 9.95 thermalDogsAndPeople (↑) 43.70 67.89 websiteScreenshots (↑) 0.50 1.30 Table 18: Comparison of Grounding DINO and GLIP on ODinW. Both models are trained on O365, GoldG,",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_033_fig_table_18.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18.png",
+                "width": 475,
+                "height": 551,
+                "size_bytes": 57224,
+                "label": "Table 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.304636,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1244,
+                  "table_body_rows": 39,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "grounding",
+              "dino",
+              "odinw"
+            ],
+            "snippet": "2 S. Liu et al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and refe",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "grounding",
+              "dino",
+              "glip",
+              "odinw"
+            ],
+            "snippet": "DINO (Ours) DINO A,B,C sub-sentence ✓ zero-shot zero-shot zero-shot zero-shot Table 1: A comparison of previous open-set object detectors. Our summarization is based on the experiments in t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 19",
+        "caption": "Training on RefCOCO from scratch.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 33,
+            "score": 8,
+            "matched_terms": [
+              "table 19",
+              "training",
+              "refcoco",
+              "scratch"
+            ],
+            "snippet": "68.67/67.73 Grounding DINO T (9ep) SwinT 81.42/85.28/76.75 69.14/74.79/60.17 73.96/74.37 Table 19: Training on RefCOCO from scratch.",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_033_fig_table_18.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_033_fig_table_18.png",
+                "width": 475,
+                "height": 551,
+                "size_bytes": 57224,
+                "label": "Table 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.304636,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1244,
+                  "table_body_rows": 39,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "training",
+              "refcoco"
+            ],
+            "snippet": "summarize the modulized design 1 In this paper, ‘zero-shot’ refers to scenarios where the training split of the test dataset is not utilized in the training process. 2 We view the terms op",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "training",
+              "refcoco"
+            ],
+            "snippet": "ge margin. For example, Grounding DINO reaches a 52.5 AP on COCO minival without any COCO training data. It also establishes a new state of the art on the ODinW [23] zero-shot benchmark wi",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Zero-shot domain transfer and fine-tuning on COCO. * The results in brackets",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_2.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+          "width": 468,
+          "height": 226,
+          "size_bytes": 23888,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.122982,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 762,
+            "table_body_rows": 18,
+            "caption_text_chars": 366,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "zero-shot",
+              "domain",
+              "transfer",
+              "fine-tuning",
+              "coco"
+            ],
+            "snippet": "63.0 / 63.0)* Grounding DINO L (Ours) Swin-L O365,OI,GoldG,Cap4M,COCO,RefC 60.7‡ 62.6 / - Table 2: Zero-shot domain transfer and fine-tuning on COCO. * The results in brackets are trained",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+                "width": 468,
+                "height": 226,
+                "size_bytes": 23888,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122982,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 366,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "zero-shot",
+              "transfer",
+              "fine-tuning",
+              "coco"
+            ],
+            "snippet": ".0 AP on COCO test-dev with fine-tuning on the COCO dataset(See the number in brackets of Table 2). LVIS Benchmark LVIS [15] is a dataset for long-tail objects. It contains more than 1000",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3.png",
+                "width": 326,
+                "height": 192,
+                "size_bytes": 20090,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.073031,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 0.09094,
+                  "paragraph_text_chars": 408,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 22,
+            "score": 6,
+            "matched_terms": [
+              "table 2",
+              "coco"
+            ],
+            "snippet": "fficiency We compare the model size and efficiency between Grounding DINO T and GLIP-T in Table 20. The results show that our model has a smaller parameter size and better efficiency than",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 20",
+        "caption": "Comparison of model size and model efficiency between GLIP and Grounding",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_026_fig_table_20.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_fig_table_20.png",
+          "width": 588,
+          "height": 360,
+          "size_bytes": 91940,
+          "label": "Table 20",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "table_text_contamination_suspected",
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.246431,
+            "visual_rect_count": 8,
+            "visual_body_ratio": 0.875624,
+            "paragraph_text_chars": 731,
+            "table_body_rows": 0,
+            "caption_text_chars": 88,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Fig. 8"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 20",
+              "model",
+              "size",
+              "efficiency",
+              "between"
+            ],
+            "snippet": "fficiency We compare the model size and efficiency between Grounding DINO T and GLIP-T in Table 20. The results show that our model has a smaller parameter size and better efficiency than",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_11.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_11.png",
+                "width": 433,
+                "height": 237,
+                "size_bytes": 29952,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119336,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 466,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 157,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_table_13.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_022_fig_table_13.png",
+                "width": 478,
+                "height": 187,
+                "size_bytes": 23803,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104047,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 293,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 23,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 26,
+            "score": 8,
+            "matched_terms": [
+              "table 20",
+              "comparison",
+              "model",
+              "size",
+              "efficiency",
+              "between"
+            ],
+            "snippet": "Model params GFLOPS FPS GLIP-T [25] 232M 488G 6.11 Grounding DINO T (Ours) 172M 464G 8.37 Table 20: Comparison of model size and model efficiency between GLIP and Grounding DINO.",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_img_01.jpeg",
+                "width": 640,
+                "height": 426,
+                "size_bytes": 44024
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_img_02.jpeg",
+                "width": 640,
+                "height": 426,
+                "size_bytes": 38256
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_img_03.jpeg",
+                "width": 427,
+                "height": 640,
+                "size_bytes": 50744
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_fig_8.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_fig_fig_8.png",
+                "width": 425,
+                "height": 94,
+                "size_bytes": 47970,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.046823,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_026_fig_table_20.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_026_fig_table_20.png",
+                "width": 588,
+                "height": 360,
+                "size_bytes": 91940,
+                "label": "Table 20",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.246431,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.875624,
+                  "paragraph_text_chars": 731,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 88,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "model",
+              "size",
+              "between"
+            ],
+            "snippet": "8 S. Liu et al. Model Backbone Pre-Training Data Zero-Shot Fine-Tuning 2017val 2017val/test-dev Faster R-CNN RN",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+                "width": 468,
+                "height": 226,
+                "size_bytes": 23888,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122982,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 366,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Model results on LVIS.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_table_3.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3.png",
+          "width": 326,
+          "height": 192,
+          "size_bytes": 20090,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.073031,
+            "visual_rect_count": 5,
+            "visual_body_ratio": 0.09094,
+            "paragraph_text_chars": 408,
+            "table_body_rows": 11,
+            "caption_text_chars": 31,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 7,
+            "matched_terms": [
+              "table 3",
+              "model",
+              "lvis"
+            ],
+            "snippet": "ur model. We use GLIP and DetCLIPv2 as baselines for our models. The results are shown in Table 3. Model Backbone Pre-Training Data MiniVal [18] AP APr/APc/APf Zero-Shot Setting GLIP-T (C",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_010_fig_table_3.png",
+                "width": 326,
+                "height": 192,
+                "size_bytes": 20090,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.073031,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 0.09094,
+                  "paragraph_text_chars": 408,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 7,
+            "matched_terms": [
+              "table 3",
+              "model",
+              "lvis"
+            ],
+            "snippet": "11 To unveil the full potential of Grounding DINO, we fine-tuned it on the LVIS dataset. Table 3 highlights the commendable capability of our model. Remarkably, despite being pre-trained",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4.png",
+                "width": 469,
+                "height": 280,
+                "size_bytes": 39316,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.152767,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1119,
+                  "table_body_rows": 22,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "model",
+              "lvis"
+            ],
+            "snippet": "t al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and referring object detection benchmarks. Grounding DI",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Model results on the ODinW benchmark.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_table_4.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4.png",
+          "width": 469,
+          "height": 280,
+          "size_bytes": 39316,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.152767,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1119,
+            "table_body_rows": 22,
+            "caption_text_chars": 46,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "model",
+              "odinw",
+              "benchmark"
+            ],
+            "snippet": "7] ✗ Swin-L 218M O365 68.8 70.7 Grounding DINO T(Ours) ✓ Swin-T 172M O365,GoldG 70.7 76.2 Table 4: Model results on the ODinW benchmark. ODinW Benchmark ODinW (Object Detection in the Wil",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_011_fig_table_4.png",
+                "width": 469,
+                "height": 280,
+                "size_bytes": 39316,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.152767,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1119,
+                  "table_body_rows": 22,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "model",
+              "odinw",
+              "benchmark"
+            ],
+            "snippet": "t al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and referring object detection benchmarks. Grounding DI",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "model",
+              "odinw",
+              "benchmark"
+            ],
+            "snippet": "blishes a new state of the art on the ODinW [23] zero-shot benchmark with a 26.1 mean AP. Model Model Design Text Prompt Closed-Set Settings Zero-Shot Transfer Referring Detection Base",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Top-1 accuracy comparison on the referring expression comprehension task.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_012_fig_table_5.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_012_fig_table_5.png",
+          "width": 472,
+          "height": 174,
+          "size_bytes": 27752,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.09582,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1071,
+            "table_body_rows": 16,
+            "caption_text_chars": 569,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 12,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "top-",
+              "accuracy",
+              "comparison",
+              "referring",
+              "expression"
+            ],
+            "snippet": "ine. We evaluate the model performance on RefCOCO/+/g directly.5 The results are shown in Table 5. Grounding DINO outperforms GLIP under the same setting. Nevertheless, both GLIP and Grou",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_012_fig_table_5.png",
+                "width": 472,
+                "height": 174,
+                "size_bytes": 27752,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.09582,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1071,
+                  "table_body_rows": 16,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "referring",
+              "expression"
+            ],
+            "snippet": "man-input novel categories ear, lion, bench The left lion The bottom man with his head up Referring Object Detection (Referring Expression Comprehension) Human-input reference sentences ben",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "comparison",
+              "referring"
+            ],
+            "snippet": "DINO (Ours) DINO A,B,C sub-sentence ✓ zero-shot zero-shot zero-shot zero-shot Table 1: A comparison of previous open-set object detectors. Our summarization is based on the experiments in t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Ablations for our model. All models are trained on the O365 dataset with a",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_table_7.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_014_fig_table_7.png",
+          "width": 335,
+          "height": 101,
+          "size_bytes": 8255,
+          "label": "Table 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.039513,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 157,
+            "table_body_rows": 7,
+            "caption_text_chars": 115,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 7",
+              "ablations",
+              "model",
+              "models",
+              "trained",
+              "dataset"
+            ],
+            "snippet": ".6 13.6 3 w/o text cross-attention 46.1 56.3 14.3 4 word-level text prompt 46.4 56.6 15.6 Table 7: Ablations for our model. All models are trained on the O365 dataset with a Swin Transfor",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_7.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_014_fig_table_7.png",
+                "width": 335,
+                "height": 101,
+                "size_bytes": 8255,
+                "label": "Table 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039513,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 115,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "model",
+              "models",
+              "dataset"
+            ],
+            "snippet": "standing (a) Closed-Set Object Detection Fig. 1: (a) Closed-set object detection requires models to detect objects of pre-defined categories. (b) We evaluate models on novel objects and",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "model",
+              "models",
+              "dataset"
+            ],
+            "snippet": "t al. including object detection data, grounding data, and caption data, and evaluate the model on both open-set object detection and referring object detection benchmarks. Grounding DI",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_002_fig_fig_2.png",
+                "width": 539,
+                "height": 226,
+                "size_bytes": 43418,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141849,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 950,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Hyper-parameters used in our pre-trained models.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_019_fig_table_8.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_019_fig_table_8.png",
+          "width": 185,
+          "height": 115,
+          "size_bytes": 5888,
+          "label": "Table 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.024948,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 366,
+            "table_body_rows": 7,
+            "caption_text_chars": 57,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 19,
+            "score": 8,
+            "matched_terms": [
+              "table 8",
+              "hyper-parameters",
+              "used",
+              "pre-trained",
+              "models"
+            ],
+            "snippet": "Grounding DINO 19 A More Implementation Details A.1 Hyperparameters Table 8 presents the hyperparameters used in our main experiments. Item Value optimizer AdamW lr",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_table_8.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_019_fig_table_8.png",
+                "width": 185,
+                "height": 115,
+                "size_bytes": 5888,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024948,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 366,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "used",
+              "models"
+            ],
+            "snippet": "odal features and update themselves. The output queries of the last decoder layer will be used to predict object boxes and extract corresponding phrases. cat . baseball glove . A cat i",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_006_fig_fig_4.png",
+                "width": 478,
+                "height": 172,
+                "size_bytes": 25958,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.095808,
+                  "visual_rect_count": 41,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 726,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 2,
+            "matched_terms": [
+              "used",
+              "models"
+            ],
+            "snippet": "compute focal loss [28] for each logit. Box regression and classification costs are first used for bipartite matching between predictions and ground truths. We then calculate final los",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_008_fig_table_2.png",
+                "width": 468,
+                "height": 226,
+                "size_bytes": 23888,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122982,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 366,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Transfer pre-trained DINO to Grounding DINO. We freeze shared modules",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_021_fig_table_9.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_9.png",
+          "width": 816,
+          "height": 235,
+          "size_bytes": 24116,
+          "label": "Table 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing"
+            ],
+            "page_coverage_ratio": 0.223233,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 387,
+            "table_body_rows": 0,
+            "caption_text_chars": 8,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 21,
+            "score": 8,
+            "matched_terms": [
+              "table 9",
+              "transfer",
+              "pre-trained",
+              "dino",
+              "grounding",
+              "freeze"
+            ],
+            "snippet": "ters only. (We compare DINO and Grounding DINO in Sec. C.1.) The results are available in Table 9. Model Pre-Train Data COCO minival LVIS minival ODinW DINO Pre-Train Grounded Fine-Tune Z",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_table_9.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_9.png",
+                "width": 816,
+                "height": 235,
+                "size_bytes": 24116,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.223233,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 387,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 8,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_021_fig_table_10.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_021_fig_table_10.png",
+                "width": 218,
+                "height": 144,
+                "size_bytes": 4843,
+                "label": "Table 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing"
+                  ],
+                  "page_coverage_ratio": 0.036497,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 175,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "transfer",
+              "dino",
+              "grounding"
+            ],
+            "snippet": ".cn, leizhang@idea.edu.cn Standard Object Detection COCO pre-defined categories Zero-Shot Transfer to Novel Categories worldcup Human-input novel categories ear, lion, bench The left lion",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_01.jpeg",
+                "width": 813,
+                "height": 588,
+                "size_bytes": 94197
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_02.jpeg",
+                "width": 813,
+                "height": 587,
+                "size_bytes": 63271
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_img_03.png",
+                "width": 50,
+                "height": 29,
+                "size_bytes": 143
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_001_fig_fig_1.png",
+                "width": 409,
+                "height": 190,
+                "size_bytes": 117063,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.090708,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 387,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "transfer",
+              "dino",
+              "grounding"
+            ],
+            "snippet": "nchmark with a 26.1 mean AP. Model Model Design Text Prompt Closed-Set Settings Zero-Shot Transfer Referring Detection Base Detector Fusion (Fig. 2) CLIP Represent. Level (Sec. 3.4) COCO C",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\deeppapernote\\grounding_dino_assets\\images\\page_004_fig_table_1.png",
+                "width": 475,
+                "height": 125,
+                "size_bytes": 14381,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.069053,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 925,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 551,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}
