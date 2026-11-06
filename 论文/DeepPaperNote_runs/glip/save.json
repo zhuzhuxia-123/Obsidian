@@ -1,0 +1,90 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "output_language": "zh-CN",
+  "paper_id": "title:5baa490aca77",
+  "title": "Grounded Language-Image Pre-Training",
+  "note_path": "E:\\个人知识库\\知识库\\论文\\论文1\\论文1.zh-CN.md",
+  "subdir": "",
+  "images_dir": "E:\\个人知识库\\知识库\\论文\\论文1\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_figure_1.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_figure_1.png",
+      "relative_markdown_path": "images/glip_figure_1.png",
+      "reviewed_asset_sha256": "b51440192aa5b2922d4db786a93a3531ef4ae8e8ef88a5dad519a5c28d8f8904"
+    },
+    {
+      "source_id": "Figure 2",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_figure_2.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_figure_2.png",
+      "relative_markdown_path": "images/glip_figure_2.png",
+      "reviewed_asset_sha256": "e431c5cd2a49c482a807425a991f2f528314b6f80ea46abc9e7fcf69f792767f"
+    },
+    {
+      "source_id": "Figure 3",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_figure_3.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_figure_3.png",
+      "relative_markdown_path": "images/glip_figure_3.png",
+      "reviewed_asset_sha256": "2d4c20adcfb012155a27a4e673bf87393834ff8ed00be003b08cd95ca48a2d1a"
+    },
+    {
+      "source_id": "Figure 4",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_figure_4.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_figure_4.png",
+      "relative_markdown_path": "images/glip_figure_4.png",
+      "reviewed_asset_sha256": "f207e2e16235fa9cd2540a1e686bfba59cd17ccee567b812858c81f869fd96fc"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_figure_5.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_figure_5.png",
+      "relative_markdown_path": "images/glip_figure_5.png",
+      "reviewed_asset_sha256": "157c6c0970fb144b8e7bef027a87437e568e6405b6078d9488d5e5858be4c719"
+    },
+    {
+      "source_id": "Table 1",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\page_006_fig_table_1_review.png",
+      "relative_markdown_path": "images/page_006_fig_table_1_review.png",
+      "reviewed_asset_sha256": "12088dc48c855cfcfb45bf278dc2ab7e4c1ebb9f3fab917959b0dba8969ebf0b"
+    },
+    {
+      "source_id": "Table 2",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_table_2.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_table_2.png",
+      "relative_markdown_path": "images/glip_table_2.png",
+      "reviewed_asset_sha256": "9b056c9ec45111b9e2c5035918978851ff47da45cb4d1c55b59b69b1217b4117"
+    },
+    {
+      "source_id": "Table 3",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\glip_table_3.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\glip_table_3.png",
+      "relative_markdown_path": "images/glip_table_3.png",
+      "reviewed_asset_sha256": "03c44d9bf3a073f92ce38cb0ca33464a8cee56608038698d7389ce295f76944b"
+    },
+    {
+      "source_id": "Table 4",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\page_006_fig_table_4_review.png",
+      "relative_markdown_path": "images/page_006_fig_table_4_review.png",
+      "reviewed_asset_sha256": "3e44ca622f64a61e3a694c87fed5bfe1ce9ae1f69236645c5b27d5e528aab4bb"
+    },
+    {
+      "source_id": "Table 5",
+      "source_image": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5_review.png",
+      "dest_image_path": "E:\\个人知识库\\知识库\\论文\\论文1\\images\\page_007_fig_table_5_review.png",
+      "relative_markdown_path": "images/page_007_fig_table_5_review.png",
+      "reviewed_asset_sha256": "c449c345b406280b5c1ac85b388571f22472080232acc015351de1468c7f6cff"
+    }
+  ],
+  "overwrote_existing_note": false,
+  "admission": "reuse_pdf_directory",
+  "domain_routing_skipped": true,
+  "sidecar_path": "E:\\个人知识库\\知识库\\论文\\论文1\\.deeppapernote.json",
+  "source_sha256": "d8fcb3e82ed94c7e2e3dc5f47211d2e2d1e31dc8cc46ff9d49d682fde6f304da",
+  "output_mode": "obsidian",
+  "base_output_root": "E:\\个人知识库\\知识库",
+  "vault": "E:\\个人知识库\\知识库"
+}

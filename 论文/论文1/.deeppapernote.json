@@ -1,0 +1,25 @@
+{
+  "artifact_type": "deeppapernote_paper_directory",
+  "schema_version": 2,
+  "title": "Grounded Language-Image Pre-Training",
+  "note_stem": "论文1",
+  "work": {
+    "title": "Grounded Language-Image Pre-Training",
+    "identifiers": {},
+    "provenance": {}
+  },
+  "sources": {
+    "d8fcb3e82ed94c7e2e3dc5f47211d2e2d1e31dc8cc46ff9d49d682fde6f304da": {
+      "notes": {
+        "zh-CN": {
+          "filename": "论文1.zh-CN.md",
+          "note_sha256": "f5225e039b58dd702245c49ec0fc89c11c4c3e7700b6a61943455c7ab89b8df4"
+        }
+      },
+      "note_stem": "论文1",
+      "asset_subdir": "images",
+      "source_url": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+      "pdf_path": "Li 等 - 2022 - Grounded Language-Image Pre-training.pdf"
+    }
+  }
+}

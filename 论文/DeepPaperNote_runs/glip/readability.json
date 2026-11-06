@@ -1,0 +1,12 @@
+{
+  "output_language": "zh-CN",
+  "warnings": [],
+  "note_sha256": "f5225e039b58dd702245c49ec0fc89c11c4c3e7700b6a61943455c7ab89b8df4",
+  "checks": [
+    "已通读，保持摘要原义、指标单位和版本口径",
+    "段落按机制、结果、解释展开",
+    "中英文专名与公式一致，裁剪原图和图注对应"
+  ],
+  "stage": "final_readability_review",
+  "passed": true
+}

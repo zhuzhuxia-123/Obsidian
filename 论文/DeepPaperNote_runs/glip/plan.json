@@ -1,0 +1,161 @@
+{
+  "output_language": "zh-CN",
+  "paper_type": "AI_method",
+  "paper_type_rationale": "把检测重写为短语定位，通过双向注意力和伪标注扩展对象级监督，并以迁移消融验证。",
+  "dominant_domain": "论文1",
+  "must_cover": [
+    "词元目标矩阵及分数聚合",
+    "双向深度融合与提示适配",
+    "教师学生数据配方与消融"
+  ],
+  "key_numbers": [
+    "49.8",
+    "26.9",
+    "61.5",
+    "87.1",
+    "20.8",
+    "15.0"
+  ],
+  "real_comparisons": [
+    "同源数据的动态检测头与GLIP-T",
+    "早期融合与末端融合",
+    "增加定位数据与增加检测数据"
+  ],
+  "central_claims": [
+    {
+      "claim": "统一监督允许检测和定位数据互补",
+      "supporting_evidence": [
+        {
+          "pages": [
+            3,
+            6,
+            7
+          ]
+        }
+      ],
+      "what_it_actually_proves": "混合人工定位数据提升多种检测来源上的迁移，加入检测数据也提高短语定位首位召回。",
+      "what_it_does_not_prove": "不能完全隔离样本规模、标注质量或语义覆盖的影响。"
+    },
+    {
+      "claim": "融合使提示影响区域表示并提高可适配性",
+      "supporting_evidence": [
+        {
+          "pages": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "what_it_actually_proves": "消融和提示调优曲线在指定模型与任务中支持中间层融合。",
+      "what_it_does_not_prove": "不能保证所有领域、表达及稀有类都有同方向收益。"
+    }
+  ],
+  "claim_boundaries": [
+    "COCO未见图像但其类别被Objects365覆盖",
+    "61.5与49.8对应不同训练配方"
+  ],
+  "negative_or_limiting_results": [
+    "仅加深度融合使LVIS下降",
+    "伪标注对COCO没有稳定增益"
+  ],
+  "mechanism_result_map": [
+    "双向融合使固定提示嵌入可作低参数适配",
+    "短语监督提升稀有类别，但不等同于提升整体AP"
+  ],
+  "comparative_positioning": [
+    "对照CLIP图像级监督、MDETR短语定位及动态检测头固定分类"
+  ],
+  "reuse_takeaways": [
+    "记录短语跨度映射与伪框置信度",
+    "比较稀有类、整体和单领域指标"
+  ],
+  "followup_questions": [
+    "在同预算下能否区分文本覆盖与伪框质量的贡献？",
+    "对新域仅调提示时如何控制提示选择偏差？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "解释图像级语义监督与对象级定位之间的差异及统一训练的动机。",
+      "evidence_sources": [
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "对照人工检测、人工定位和伪标注数据的构成以及不同评测协议。",
+      "evidence_sources": [
+        {
+          "pages": [
+            2,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "重建区域词元矩阵、子词标签扩展、双向融合和教师学生监督链。",
+      "evidence_sources": [
+        {
+          "pages": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "并列拆解模型变体在常见类别、长尾及指代定位上的不同收益。",
+      "evidence_sources": [
+        {
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "把伪标签语义覆盖、跨模态融合和提示参数适配分别对应实验证据。",
+      "evidence_sources": [
+        {
+          "pages": [
+            4,
+            5,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "讨论训练类别重叠、领域配方差异、提示选择以及伪标注误差。",
+      "evidence_sources": [
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}
