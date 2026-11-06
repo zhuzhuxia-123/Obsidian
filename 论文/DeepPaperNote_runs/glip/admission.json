@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "phase": "save_target_admission",
+  "admission": "reuse_pdf_directory",
+  "domain_routing_skipped": true,
+  "target_directory": "E:\\个人知识库\\知识库\\论文\\论文1",
+  "note_path": "E:\\个人知识库\\知识库\\论文\\论文1\\论文1.zh-CN.md",
+  "asset_subdir": "images",
+  "source_sha256": "d8fcb3e82ed94c7e2e3dc5f47211d2e2d1e31dc8cc46ff9d49d682fde6f304da",
+  "output_language": "zh-CN"
+}

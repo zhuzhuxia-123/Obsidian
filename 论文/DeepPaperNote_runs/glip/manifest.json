@@ -1,0 +1,630 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "title:5baa490aca77",
+  "title": "Grounded Language-Image Pre-Training",
+  "source_sha256": "d8fcb3e82ed94c7e2e3dc5f47211d2e2d1e31dc8cc46ff9d49d682fde6f304da",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\raw.jsonl",
+  "full_text_md_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\full.md",
+  "pdf": {
+    "path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+    "total_pages": 11,
+    "text_pages_extracted": 11,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 11,
+    "text_max_pages": null,
+    "text_pages_extracted": 11,
+    "text_pages_scanned": 11,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 9
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 376,
+      "text_hash_sha256": "5426178028de12b9d9467dc76142367648993eed2d5dd44fbf6821e1d741aa13"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1288,
+      "text_hash_sha256": "57901cbeb8113ea5210dada2b1b159169c891391d08f0cdfbe2d2f7ebaea0e04"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 5011,
+      "text_hash_sha256": "06cd63baeb44dad43983b7a09252da79aa247d402fcbc220730ca5cf09dee28c"
+    },
+    {
+      "section_id": "sec:data",
+      "kind": "data",
+      "title": "data.",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 2742,
+      "text_hash_sha256": "32b7028a305090c92db7aa854eb775f2e56ce501da7ceb00eab22450e9d40eb1"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "2. Related Work",
+      "page_start": 2,
+      "page_end": 5,
+      "char_count": 17321,
+      "text_hash_sha256": "d19199b895990a557ceeea621c86006a000983971773a233af9ac7055ddfea8e"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 277,
+      "text_hash_sha256": "3727614f332111f0b8f15e352b95b2640bfa49ab576e51b81f798cd10494bab0"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 2379,
+      "text_hash_sha256": "395180770c0e967e2b9969f9f738c218bba327ec33f44415ea27f3d6033b0897"
+    },
+    {
+      "section_id": "sec:model-3",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 673,
+      "text_hash_sha256": "76447b8445c12df02a752ec921d677e563a531104495205030f3469f107409de"
+    },
+    {
+      "section_id": "sec:data-2",
+      "kind": "data",
+      "title": "Data",
+      "page_start": 6,
+      "page_end": 7,
+      "char_count": 2772,
+      "text_hash_sha256": "2ea3cf45c1e3bc6955a6f1dc9df308eed785b4cb33b0fbeac1e3feabf6b2dfa5"
+    },
+    {
+      "section_id": "sec:analysis",
+      "kind": "experiment",
+      "title": "4.4. Analysis",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 8172,
+      "text_hash_sha256": "e5ba5885b29adf1fd90f63e9007626f8870bfdde3572e0c5427a6fed891ef035"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "6. Conclusion",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 377,
+      "text_hash_sha256": "2e1fec70714e96de6a2ff71e800631c64642ca9d7db25801256a68e0c806e636"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 9,
+      "page_end": 11,
+      "char_count": 14433,
+      "text_hash_sha256": "f12d2ccab6d32a38428b45a9a90d9e16c88ea06784dbbf6fc5bd8c62463d56b6"
+    },
+    {
+      "section_id": "sec:models",
+      "kind": "method",
+      "title": "models.",
+      "page_start": 11,
+      "page_end": 11,
+      "char_count": 1082,
+      "text_hash_sha256": "c34cd321ea4e9e60aa34702497a1feb39a080cb14c6bbdd805bfa7eb8773a379"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4763,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 5002,
+      "section_ids": [
+        "sec:introduction",
+        "sec:data",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 5624,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 5657,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 5841,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 5405,
+      "section_ids": [
+        "sec:model",
+        "sec:model-2",
+        "sec:model-3",
+        "sec:data-2"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4715,
+      "section_ids": [
+        "sec:data-2",
+        "sec:analysis"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 4711,
+      "section_ids": [
+        "sec:analysis",
+        "sec:conclusion"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 5932,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 5925,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3702,
+      "section_ids": [
+        "sec:references",
+        "sec:models"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "A unified framework for detection and grounding. Unlike a classical object detection model",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Grounding pre-",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Data efficiency of models. X-axis is the amount of task-",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:data-2"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "A manual prompt tuning example from the Aquarium",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:analysis"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Effectiveness of prompt tuning. Solid lines are full-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:analysis"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "A detailed list of GLIP model variants.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Zero-shot domain transfer and fine-tuning on COCO.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Zero-shot domain transfer to LVIS. While using no LVIS",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Phrase grounding performance on Flickr30K entities.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Effect of different detection data.",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:data-2"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "high-confidence (> 0.5) phrase-box pseudo annotations,",
+      "section_id": "sec:data",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "L = Lcls + Lloc.",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "O=EncI(Img), Scls =OW T , Lcls =loss(Scls; T).",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "Here3, O ∈RN×d are the object/region/box features of the",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "input image, W ∈Rc×d is the weight matrix of the box",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "classifier C, Scls ∈RN×c are the output classification log-",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "its, T ∈{0, 1}N×c is the target matching between regions",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "Prompt = “Detect: person, bicycle, car, ... , toothbrush”,",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "O=EncI(Img), P =EncL(Prompt), Sground =OP ⊤, (3)",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "where P ∈RM×d is the contextual word/token features",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "RN×M and the target T ∈{0, 1}N×c. The number of (sub)-",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "5), we expand the original target matrix T ∈{0, 1}N×c to",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "T ′ ∈{0, 1}N×M by making all sub-words positive match",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "P ∈Rc×d, if written in the form of (3). Recently, phrase",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "i2t = X-MHA(Oi, P i),",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "i ∈{0, 1, .., L −1}",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "Oi+1 = DyHeadModule(Oi+Oi",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "O = OL,",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "P i+1 = BERTLayer(P i+P i",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "P = P L,",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "O(q) =OW (q,I), P (q) =PW (q,L), Attn=O(q)(P (q))⊤/",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "P (v) = PW (v,L), Ot2i = SoftMax(Attn)P (v)W (out,I),",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "O(v) = OW (v,I), Pi2t = SoftMax(Attn⊤)O(v)W (out,L),",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "where {W (symbol,I), W (symbol,L) : symbol ∈{q, v, out}}",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 5
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "a48ca07ee608d61d1f86aa78d8720cf0ca6b72267049ae29d37ccb63e640fbd1",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "title:5baa490aca77",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Grounded Language-Image Pre-Training",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Grounded Language-Image Pre-Training",
+      "year": "",
+      "venue": "",
+      "source_url": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+      "doi": "",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+      "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+      "title": "Grounded Language-Image Pre-Training",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "local_pdf_artifact_title": true,
+      "paper_id": "title:5baa490aca77",
+      "identity_confidence": "low",
+      "identity_confidence_reasons": [
+        "pdf_metadata_title_used",
+        "local_pdf_artifact_title"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:5baa490aca77"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:5baa490aca77"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:5baa490aca77"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "title",
+        "value": "Grounded Language-Image Pre-Training",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "minor_title_variation_only",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Grounded Language-Image Pre-Training",
+          "work_value": "Grounded Language-Image Pre-Training"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\trace.json",
+    "provenance": {
+      "resolve_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\resolve.json",
+      "metadata_artifact_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Grounded Language-Image Pre-Training",
+    "year": "",
+    "venue": "",
+    "source_url": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+    "doi": "",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

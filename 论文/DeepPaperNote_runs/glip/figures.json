@@ -1,0 +1,1927 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "title:5baa490aca77",
+  "output_language": "zh-CN",
+  "figure_plan": {
+    "paper_id": "title:5baa490aca77",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "A unified framework for detection and grounding. Unlike a classical object detection model",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_1.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+          "width": 665,
+          "height": 254,
+          "size_bytes": 110345,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.196568,
+            "visual_rect_count": 164,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 103,
+            "table_body_rows": 0,
+            "caption_text_chars": 522,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "unified",
+              "framework",
+              "detection",
+              "grounding",
+              "unlike"
+            ],
+            "snippet": "𝑂' # 𝑃% 𝑂\" # 𝑃( … 𝑂% # 𝑃\" 𝑂* # 𝑃\" 𝑂% # 𝑃( … 𝑂* # 𝑃( … 𝑂+%, - 𝑃,%+ - 𝑂+%, , 𝑃,%+ , 𝑃- 𝑂- … Figure 1. A unified framework for detection and grounding. Unlike a classical object detection mod",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "unified",
+              "detection",
+              "grounding"
+            ],
+            "snippet": "w 4 v.s. 3), showing again the synergy between the two tasks and the effectiveness of our unified loss. Image-text data also helps (Row 5 v.s. 4). Lastly, scal- ing up (GLIP-L) can achiev",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "detection",
+              "grounding"
+            ],
+            "snippet": "Model Backbone Deep Fusion Pre-Train Data Detection Grounding Caption GLIP-T (A) Swin-T ✗ Objects365 - - GLIP-T (B) Swin-T ✓ Objects365 - - G",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "A detailed list of GLIP model variants.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_1.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+          "width": 255,
+          "height": 81,
+          "size_bytes": 5962,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.024279,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 108,
+            "table_body_rows": 7,
+            "caption_text_chars": 48,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "detailed",
+              "list",
+              "glip",
+              "model",
+              "variants"
+            ],
+            "snippet": "ts365 GoldG - GLIP-T Swin-T ✓ Objects365 GoldG Cap4M GLIP-L Swin-L ✓ FourODs GoldG Cap24M Table 1. A detailed list of GLIP model variants. Model Backbone Pre-Train Data Zero-Shot Fine-Tun",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "detailed",
+              "glip",
+              "model"
+            ],
+            "snippet": "fine- tuning settings on well-established benchmarks and 13 downstream tasks. We leave a detailed study of how GLIP scales with text-image data size to future work. 10972",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "glip",
+              "model"
+            ],
+            "snippet": "te detection as a grounding task by aligning each region/box to phrases in a text prompt. GLIP jointly trains an image encoder and a language encoder to predict the correct pairings of",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Zero-shot domain transfer and fine-tuning on COCO.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "zero-shot",
+              "domain",
+              "transfer",
+              "fine-tuning",
+              "coco"
+            ],
+            "snippet": "Swin-L FourODs,GoldG,Cap24M 49.8 60.8 / 61.0 GLIP-L Swin-L FourODs,GoldG+,COCO - - / 61.5 Table 2. Zero-shot domain transfer and fine-tuning on COCO. GLIP, without seeing any images from",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "domain",
+              "transfer",
+              "fine-tuning",
+              "coco"
+            ],
+            "snippet": "the Wild” (ODinW) (Section 5.1), GLIP exhibits excellent data efficiency. For example, a zero-shot GLIP-L outperforms a 10-shot supervised baseline (Dynamic Head) pre-trained on Objects365",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "domain",
+              "transfer",
+              "coco"
+            ],
+            "snippet": "on Figure 3. Data efficiency of models. X-axis is the amount of task- specific data, from zero-shot to all data. Y-axis is the average AP across 13 datasets. GLIP exhibits great data effici",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Zero-shot domain transfer to LVIS. While using no LVIS",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_3.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+          "width": 316,
+          "height": 94,
+          "size_bytes": 9496,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.034598,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 227,
+            "table_body_rows": 8,
+            "caption_text_chars": 215,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "zero-shot",
+              "domain",
+              "transfer",
+              "lvis",
+              "while"
+            ],
+            "snippet": "21.4 31.0 26.0 10.1 12.5 25.5 17.2 GLIP-L Swin-L 28.2 34.3 41.5 37.3 17.1 23.3 35.4 26.9 Table 3. Zero-shot domain transfer to LVIS. While using no LVIS data, GLIP-T/L outperforms strong",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "domain",
+              "transfer",
+              "lvis",
+              "while"
+            ],
+            "snippet": "the Wild” (ODinW) (Section 5.1), GLIP exhibits excellent data efficiency. For example, a zero-shot GLIP-L outperforms a 10-shot supervised baseline (Dynamic Head) pre-trained on Objects365",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "domain",
+              "transfer",
+              "lvis",
+              "while"
+            ],
+            "snippet": "on Figure 3. Data efficiency of models. X-axis is the amount of task- specific data, from zero-shot to all data. Y-axis is the average AP across 13 datasets. GLIP exhibits great data effici",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Phrase grounding performance on Flickr30K entities.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_4.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+          "width": 316,
+          "height": 94,
+          "size_bytes": 9496,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.034598,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 227,
+            "table_body_rows": 8,
+            "caption_text_chars": 120,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "phrase",
+              "grounding",
+              "performance",
+              "flickr",
+              "entities"
+            ],
+            "snippet": "85.7 95.4 96.9 85.7 95.8 97.2 6 GLIP-L FourODs,GoldG,Cap24M 86.7 96.4 97.9 87.1 96.9 98.1 Table 4. Phrase grounding performance on Flickr30K entities. GLIP-L outperforms previous SoTA by",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "phrase",
+              "grounding",
+              "performance",
+              "entities"
+            ],
+            "snippet": "ected object, we reformulate detection as a grounding task by aligning each region/box to phrases in a text prompt. GLIP jointly trains an image encoder and a language encoder to predict",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "phrase",
+              "grounding",
+              "performance"
+            ],
+            "snippet": "the findings in NLP literature [33]. 6. Conclusion GLIP unifies the object detection and phrase ground- ing tasks to learn an object-level, language-aware, and semantic-rich visual repr",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Grounding pre-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 7,
+            "matched_terms": [
+              "figure 2",
+              "grounding",
+              "pre-"
+            ],
+            "snippet": "mall vial vaccine the view playa esmeralda beautiful caribbean sea turquoise Two syringes Figure 2. Grounding pre- dictions from GLIP. GLIP can locate rare entities, phrases with attribute",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "grounding",
+              "pre-"
+            ],
+            "snippet": "Model Backbone Deep Fusion Pre-Train Data Detection Grounding Caption GLIP-T (A) Swin-T ✗ Objects365 - - GLIP-T (B) Swin-T ✓ Objects365 - - GLIP-T (C)",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1.png",
+                "width": 255,
+                "height": 81,
+                "size_bytes": 5962,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.024279,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 108,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 48,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_3.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 215,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4.png",
+                "width": 316,
+                "height": 94,
+                "size_bytes": 9496,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.034598,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 227,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 120,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "grounding",
+              "pre-"
+            ],
+            "snippet": "DyHead module, and deep fusion. More interestingly, the addition of detection data helps grounding (Row 4 v.s. 3), showing again the synergy between the two tasks and the effectiveness of",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Data efficiency of models. X-axis is the amount of task-",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "data",
+              "efficiency",
+              "models",
+              "x-axis",
+              "amount"
+            ],
+            "snippet": "a different localization skill. 5https : / / public . roboflow . com / object - detection Figure 3. Data efficiency of models. X-axis is the amount of task- specific data, from zero-shot t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "data",
+              "efficiency",
+              "models"
+            ],
+            "snippet": "unifi- cation of detection and grounding also allows us to pre-train using both types of data and benefits both tasks. On the detection side, the pool of visual concepts is significan",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "data",
+              "efficiency",
+              "models",
+              "amount"
+            ],
+            "snippet": "gray, which is flat and round… Figure 4. A manual prompt tuning example from the Aquarium dataset in ODinW. Given an expressive prompt (“flat and round”), zero-shot GLIP can detect the",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "A manual prompt tuning example from the Aquarium",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_figure_4.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+          "width": 644,
+          "height": 155,
+          "size_bytes": 75765,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.116175,
+            "visual_rect_count": 21,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 185,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "manual",
+              "prompt",
+              "tuning",
+              "example",
+              "aquarium"
+            ],
+            "snippet": "Prompt: … stingray … Prompt: … stingray, which is flat and round… Figure 4. A manual prompt tuning example from the Aquarium dataset in ODinW. Given an expressive p",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "prompt",
+              "tuning",
+              "example"
+            ],
+            "snippet": "ent Score Visual Encoder Text Encoder DyHead Module Fusion BERT Layer ... ... O1 O2 O3 ON Prompt P1 P2 PM-1 PM Alignment Loss Localization Loss Word Features 𝑂\" # 𝑃\" 𝑂\" # 𝑃% … 𝑂' # 𝑃( 𝑂\"",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "prompt",
+              "example"
+            ],
+            "snippet": "ew domain transfer strategies: when adapting to a new task, we can simply change the text prompt and keep the entire grounding model unchanged. This greatly reduces deploy- ment cost bec",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Effectiveness of prompt tuning. Solid lines are full-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "effectiveness",
+              "prompt",
+              "tuning",
+              "solid",
+              "lines"
+            ],
+            "snippet": "box re- GLIP-L GLIP-T GLIP-T (A) DyHead-T Full-Model Tuning Prompt Tuning Linear Probing Figure 5. Effectiveness of prompt tuning. Solid lines are full- model tuning performance; dashed l",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "prompt",
+              "tuning",
+              "lines"
+            ],
+            "snippet": "ent Score Visual Encoder Text Encoder DyHead Module Fusion BERT Layer ... ... O1 O2 O3 ON Prompt P1 P2 PM-1 PM Alignment Loss Localization Loss Word Features 𝑂\" # 𝑃\" 𝑂\" # 𝑃% … 𝑂' # 𝑃( 𝑂\"",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "effectiveness",
+              "prompt",
+              "lines"
+            ],
+            "snippet": "a helps grounding (Row 4 v.s. 3), showing again the synergy between the two tasks and the effectiveness of our unified loss. Image-text data also helps (Row 5 v.s. 4). Lastly, scal- ing up (GLI",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Effect of different detection data.",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_5.png",
+          "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+          "width": 251,
+          "height": 134,
+          "size_bytes": 9609,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.039247,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 11,
+            "caption_text_chars": 44,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "effect",
+              "different",
+              "detection",
+              "data"
+            ],
+            "snippet": "31.0 24.9 7 O365,GoldG,Cap4M 46.3 20.8 21.4 31.0 26.0 8 FourODs 46.3 15.0 22.5 32.8 26.8 Table 5. Effect of different detection data. mance to MDETR with GoldG+, presumably due to the in",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_5.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5.png",
+                "width": 251,
+                "height": 134,
+                "size_bytes": 9609,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039247,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "effect",
+              "detection",
+              "data"
+            ],
+            "snippet": "is study, we show that this simple strategy of scaling up grounding data is em- pirically effective, bringing large improvements to LVIS and 13 downstream detection tasks, especially on",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_01.png",
+                "width": 640,
+                "height": 507,
+                "size_bytes": 520694
+              },
+              {
+                "filename": "page_002_img_02.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_02.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20712
+              },
+              {
+                "filename": "page_002_img_03.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_img_03.png",
+                "width": 96,
+                "height": 93,
+                "size_bytes": 20863
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1.png",
+                "width": 665,
+                "height": 254,
+                "size_bytes": 110345,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196568,
+                  "visual_rect_count": 164,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 103,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 522,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "effect",
+              "detection",
+              "data"
+            ],
+            "snippet": "LIP-L GLIP-T GLIP-T (A) DyHead-T Full-Model Tuning Prompt Tuning Linear Probing Figure 5. Effectiveness of prompt tuning. Solid lines are full- model tuning performance; dashed lines are",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_01.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 196105
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_img_02.jpeg",
+                "width": 622,
+                "height": 798,
+                "size_bytes": 203512
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4.png",
+                "width": 644,
+                "height": 155,
+                "size_bytes": 75765,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.116175,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

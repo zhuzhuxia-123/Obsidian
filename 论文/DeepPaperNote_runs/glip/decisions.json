@@ -1,0 +1,410 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "output_language": "zh-CN",
+  "paper_id": "title:5baa490aca77",
+  "asset_subdir": "images",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "A unified framework for detection and grounding. Unlike a classical object detection model",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_002_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_002_fig_figure_1_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "5a6df8f7b89ee9e33ca28604e0097e8fd494b5b64a92b59e7be32c3032aba51e",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_002_fig_figure_1_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_002.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 2,
+        "caption": "A unified framework for detection and grounding. Unlike a classical object detection model",
+        "bbox_pt": [
+          49.29100036621094,
+          56.31244659423828,
+          548.4219970703125,
+          247.198974609375
+        ],
+        "normalized_bbox": [
+          0.080541,
+          0.071102,
+          0.896114,
+          0.31212
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Grounding pre-",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Data efficiency of models. X-axis is the amount of task-",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:data-2",
+      "decision": "placeholder",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "A manual prompt tuning example from the Aquarium",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:analysis",
+      "decision": "review_pending",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_008_fig_figure_4_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "399a8c33ca7dd1d0b51c81e4f1514f603818094abdf90fdd75e573066276229a",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_008_fig_figure_4_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_008.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 8,
+        "caption": "A manual prompt tuning example from the Aquarium",
+        "bbox_pt": [
+          63.96923065185547,
+          43.69676208496094,
+          547.4443969726562,
+          160.16696166992188
+        ],
+        "normalized_bbox": [
+          0.104525,
+          0.055173,
+          0.894517,
+          0.202231
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Effectiveness of prompt tuning. Solid lines are full-",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:analysis",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "A detailed list of GLIP model variants.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "review_pending",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_006_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_006_fig_table_1_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "12088dc48c855cfcfb45bf278dc2ab7e4c1ebb9f3fab917959b0dba8969ebf0b",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_1_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_006.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 6,
+        "caption": "A detailed list of GLIP model variants.",
+        "bbox_pt": [
+          72.40869140625,
+          68.42607116699219,
+          264.06427001953125,
+          129.82901000976562
+        ],
+        "normalized_bbox": [
+          0.118315,
+          0.086397,
+          0.431478,
+          0.163926
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Zero-shot domain transfer and fine-tuning on COCO.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Zero-shot domain transfer to LVIS. While using no LVIS",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "review_pending",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_006_fig_table_3_review.png",
+      "relative_markdown_embed": "![Table 3](images/page_006_fig_table_3_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "3e44ca622f64a61e3a694c87fed5bfe1ce9ae1f69236645c5b27d5e528aab4bb",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_3_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_006.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 6,
+        "caption": "Zero-shot domain transfer to LVIS. While using no LVIS",
+        "bbox_pt": [
+          307.4306640625,
+          223.8660125732422,
+          544.9325561523438,
+          294.47430419921875
+        ],
+        "normalized_bbox": [
+          0.502338,
+          0.282659,
+          0.890413,
+          0.371811
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Phrase grounding performance on Flickr30K entities.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_table_4_review.png",
+      "relative_markdown_embed": "![Table 4](images/page_006_fig_table_4_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "3e44ca622f64a61e3a694c87fed5bfe1ce9ae1f69236645c5b27d5e528aab4bb",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_006_fig_table_4_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_006.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 6,
+        "caption": "Phrase grounding performance on Flickr30K entities.",
+        "bbox_pt": [
+          307.4306640625,
+          223.8660125732422,
+          544.9325561523438,
+          294.47430419921875
+        ],
+        "normalized_bbox": [
+          0.502338,
+          0.282659,
+          0.890413,
+          0.371811
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "Effect of different detection data.",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:data-2",
+      "decision": "review_pending",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_007_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_007_fig_table_5_review.png)",
+      "source_image_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c449c345b406280b5c1ac85b388571f22472080232acc015351de1468c7f6cff",
+      "review_evidence": {
+        "candidate_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\images\\page_007_fig_table_5_review.png",
+        "page_preview_path": "E:\\个人知识库\\知识库\\论文\\DeepPaperNote_runs\\glip\\assets\\page_previews\\page_007.png",
+        "source_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+        "source_page": 7,
+        "caption": "Effect of different detection data.",
+        "bbox_pt": [
+          73.01595306396484,
+          68.74139404296875,
+          261.59246826171875,
+          169.61927795410156
+        ],
+        "normalized_bbox": [
+          0.119307,
+          0.086795,
+          0.427439,
+          0.214166
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 4,
+      "review_pending": 6,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}

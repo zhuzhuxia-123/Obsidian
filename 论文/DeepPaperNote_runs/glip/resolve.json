@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+  "local_pdf_path": "E:\\个人知识库\\知识库\\论文\\论文1\\Li 等 - 2022 - Grounded Language-Image Pre-training.pdf",
+  "title": "Grounded Language-Image Pre-Training",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "local_pdf_artifact_title": true,
+  "paper_id": "title:5baa490aca77",
+  "identity_confidence": "low",
+  "identity_confidence_reasons": [
+    "pdf_metadata_title_used",
+    "local_pdf_artifact_title"
+  ],
+  "script": "resolve_paper.py"
+}
