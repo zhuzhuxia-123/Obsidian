@@ -131,15 +131,15 @@ $$
 
 ### 受控比较支持方法价值
 
-| 模型与预训练数据 | 直接迁移AP | 微调后AP |
-| --- | --- | --- |
-| DINO-T  O365 | 46.2 | 56.9 |
-| GLIP-T B  O365 | 44.9 | 53.8 |
-| Grounding DINO T  O365 | 46.7 | 56.9 |
-| GLIP-T C  O365加GoldG | 46.7 | 55.1 |
-| Grounding DINO T  O365加GoldG | 48.1 | 57.1 |
-| Grounding DINO T  再加Cap4M | 48.4 | 57.2 |
-| Grounding DINO L  O365加OI加GoldG | 52.5 | 62.6 |
+| 模型与预训练数据                        | 直接迁移AP | 微调后AP |
+| ------------------------------- | ------ | ----- |
+| DINO-T  O365                    | 46.2   | 56.9  |
+| GLIP-T B  O365                  | 44.9   | 53.8  |
+| Grounding DINO T  O365          | 46.7   | 56.9  |
+| GLIP-T C  O365加GoldG            | 46.7   | 55.1  |
+| Grounding DINO T  O365加GoldG    | 48.1   | 57.1  |
+| Grounding DINO T  再加Cap4M       | 48.4   | 57.2  |
+| Grounding DINO L  O365加OI加GoldG | 52.5   | 62.6  |
 
 同为O365与Swin-T，Grounding DINO相对DINO提高0.5 AP，相对GLIP提高1.8 AP。T加入GoldG后由46.7升至48.1 AP，说明区域—文本训练带来额外收益。52.5 AP则体现更强骨干和更大数据下的系统能力。
 
