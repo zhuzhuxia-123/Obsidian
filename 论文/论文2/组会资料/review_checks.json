@@ -1,0 +1,12 @@
+{
+  "local_link_occurrences": 36,
+  "missing_local_links": [],
+  "source_pages": 33,
+  "source_sha256_matches": true,
+  "invalid_evidence_source_ids": [],
+  "h1_count": 1,
+  "math_display_fences": 6,
+  "note_sha256": "3e707261185b1dde32cd2ed4fd048cb793070ab24fca6d1a21ba3734b83ef441",
+  "scientific_review": "Key numerical comparisons and method statements checked against local PDF; no model reproduction.",
+  "known_validator_issue": "Bundled validator mistakes NVIDIA GPU model A100 for an action ID; actual actions are A01-A03."
+}
