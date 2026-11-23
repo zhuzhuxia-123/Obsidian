@@ -214,15 +214,15 @@ $$
 
 *原文Table 2，第8页。下表摘录部分结果，微调列统一取COCO验证集；输入尺寸与训练数据差异以原表脚注为准。*
 
-| 模型与预训练数据 | COCO直接迁移AP | COCO微调AP |
-| --- | ---: | ---: |
-| DINO-T，O365 | 46.2 | 56.9 |
-| GLIP-T(B)，O365 | 44.9 | 53.8 |
-| Grounding DINO T，O365 | 46.7 | 56.9 |
-| GLIP-T(C)，O365＋GoldG | 46.7 | 55.1 |
-| Grounding DINO T，O365＋GoldG | 48.1 | 57.1 |
-| Grounding DINO T，再加Cap4M | 48.4 | 57.2 |
-| Grounding DINO L，O365＋OI＋GoldG | **52.5** | 62.6 |
+| 模型与预训练数据                       | COCO直接迁移AP | COCO微调AP |
+| ------------------------------ | ---------: | -------: |
+| DINO-T，O365                    |       46.2 |     56.9 |
+| GLIP-T(B)，O365                 |       44.9 |     53.8 |
+| Grounding DINO T，O365          |       46.7 |     56.9 |
+| GLIP-T(C)，O365＋GoldG           |       46.7 |     55.1 |
+| Grounding DINO T，O365＋GoldG    |       48.1 |     57.1 |
+| Grounding DINO T，再加Cap4M       |       48.4 |     57.2 |
+| Grounding DINO L，O365＋OI＋GoldG |   **52.5** |     62.6 |
 
 这张表可以得到三点认识：
 
